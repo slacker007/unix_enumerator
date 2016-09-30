@@ -2,17 +2,19 @@
 // Enumerate UNIX Systems
 
 #include <unistd.h>  // Current PID & PPID Library
-#include <stdio.h>
+#include <stdio.h>   // I/O
 #include <stdlib.h>
 #include <fcntl.h>
+#include <sys/types.h>
 #include <sys/stat.h> // File Handling
+#include <dirent.h>  // Directory Handling
 #include <string.h> // String Functions
 
 #define MAX_PID 50  // Size of buffer to read the MAX PID for the system
 #define MAX_LN 50 // Max size of data for process attribute
 
 int get_process_info(char *test); // Enumerate Process info
-
+int lst_procs();
 
 typedef struct{
 	char p_name[MAX_LN];	// Name of command run by process
@@ -39,9 +41,7 @@ typedef struct{
 
 
 int main(void){
-	int fd = 0; // file handle
-	char pid_buffer[MAX_PID];  // buffer to read contents of pid_max file
-	ssize_t n  = 0; // variable for return val of file read function
+	int cnt;
 
 	pid_t p_id;   // var for current pid of this process
 	pid_t pp_id; // var for parent pid of this process
@@ -49,17 +49,56 @@ int main(void){
 	pp_id = getppid(); // parent pid 
 
 	printf("Current Process -> PID: %d PPID %d\n", p_id, pp_id); //dbg
-	
-	fd  = open("/proc/sys/kernel/pid_max", O_RDONLY);
-	/*if (fd == -1)
-		errExit("open");*/
-	n = read(fd, pid_buffer, MAX_PID);
-	printf("Bytes Read: %d DATA: %s\n", (int) n,  &pid_buffer);
-	char *test = "/proc/1/status";
+	char *test = "/proc/1/status"; // Dbg
+	printf("Dbg1 %d\n", 1);
 	get_process_info(test);
+	printf("Dbg2 %d\n", 2);
+	lst_procs();
+	printf("DBG: %d\n", 3);
+return 0;
+}
+
+int lst_procs(){
+	DIR *dp;
+	struct dirent *eptr;
+	int ctr = 0;
+        int sys_max_pid; // max int value for a pid on current system
+	int fd = 0; // file handle
+	char pid_buffer[MAX_PID];  // buffer to read contents of pid_max file
+	ssize_t n  = 0; // variable for return val of file read function
+
+        // Get the max # of running processes possible for this sys
+	printf("DBG: %d\n", 4);
+        fd  = open("/proc/sys/kernel/pid_max", O_RDONLY);
+	if (fd == -1){
+		printf("Open %d\n", 0);}
+	else
+		printf("FD = %d\n", fd);
+
+	n = read(fd, pid_buffer, MAX_PID);
+	close(fd);
+	printf("Bytes Read: %d DATA: %s", (int) n,  &pid_buffer);
+	sys_max_pid = atoi(pid_buffer); // convert the string val of pid to an INT
 	
-	int system_max_pid;
-	system_max_pid = atoi(pid_buffer); // convert the string value of pid to an INT
+	char process_dirs[sys_max_pid + 1]; // an array with max number of entries set to value of max num of pids
+	printf("MAX: %d\n", sys_max_pid);
+	dp = opendir ("/proc/");
+	if (dp != NULL){
+		printf("DBG: %d\n", 5);
+		while (eptr = readdir (dp)){
+			printf("In while %d", ctr);
+			if (isdigit(*eptr->d_name)){ // check if integer is in the dir name
+				char p_dir[15] = "/proc/"; 
+				strcat(p_dir, eptr->d_name); // combine root proc dir with subdir of process
+				process_dirs[ctr] = p_dir; // append proc dir to array
+				printf("--->%s\n", process_dirs[ctr]); //Dbg
+				printf("p_dir: %s\n", p_dir);
+				printf("pointer: %s\n", eptr->d_name);
+				ctr += 1;}}
+		(void) closedir(dp);}
+	else 
+		perror ("Unable to open Dir");
+		printf("ERROR %d", 1);
 return 0;
 }
 
@@ -99,10 +138,8 @@ int get_process_info(char *test){
                         printf("%s", process.p_state);}
 		else if(strstr(line_buff, tid) != NULL){
 			strcpy(process.p_thread_grp, line_buff);
-			printf("%s", process.p_thread_grp);}
-                
+			printf("%s", process.p_thread_grp);}       
         }
-
 
 return 0;
 }
