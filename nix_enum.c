@@ -42,6 +42,8 @@ typedef struct{
 
 int main(void){
 	int cnt;
+	DIR *dir;
+	struct dirent *ent;
 
 	pid_t p_id;   // var for current pid of this process
 	pid_t pp_id; // var for parent pid of this process
@@ -51,10 +53,19 @@ int main(void){
 	printf("Current Process -> PID: %d PPID %d\n", p_id, pp_id); //dbg
 	char *test = "/proc/1/status"; // Dbg
 	printf("Dbg1 %d\n", 1);
-	get_process_info(test);
-	printf("Dbg2 %d\n", 2);
-	lst_procs();
-	printf("DBG: %d\n", 3);
+	//get_process_info(test);
+	//printf("Dbg2 %d\n", 2);
+	//lst_procs();
+	//printf("DBG: %d\n", 3);
+
+	dir = opendir("/proc/");
+	while((ent = readdir(dir)) != NULL){
+		if (isdigit(*ent->d_name)){
+			char p_dir[20] = "/proc/";
+			strcat(p_dir, ent->d_name);
+			printf("P_DIR: %s\n", p_dir);}}
+	(void)closedir(dir);
+
 return 0;
 }
 
@@ -85,7 +96,7 @@ int lst_procs(){
 	dp = opendir ("/proc/");
 	if (dp != NULL){
 		printf("DBG: %d\n", 5);
-		while (eptr = readdir (dp)){
+		while (eptr = readdir (dp) != NULL){
 			printf("In while %d", ctr);
 			if (isdigit(*eptr->d_name)){ // check if integer is in the dir name
 				char p_dir[15] = "/proc/"; 
@@ -96,9 +107,9 @@ int lst_procs(){
 				printf("pointer: %s\n", eptr->d_name);
 				ctr += 1;}}
 		(void) closedir(dp);}
-	else 
+	else{
 		perror ("Unable to open Dir");
-		printf("ERROR %d", 1);
+		printf("ERROR %d", 1);}
 return 0;
 }
 
