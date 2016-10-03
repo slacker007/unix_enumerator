@@ -71,7 +71,8 @@ int main(void){
 			char p_dir[20] = "/proc/";
 			strcat(p_dir, ent->d_name);
 			strcat(p_dir, "/status");
-			printf("Test: %s\n", p_dir);}}
+			get_process_info(p_dir);
+			printf("Loading: %s\n", p_dir);}}
 	(void)closedir(dir);
 
 return 0;
@@ -172,10 +173,6 @@ int get_process_info(char *test){
 	strcpy(top_of_list -> p_vmPTE, "..");
 
 
-
-
-
-	
 	if (list_location != 0){  //Ensure the list pointer is at base of the list
 		while (list_location -> next != 0){
 			list_location = list_location -> next;}}
@@ -188,7 +185,43 @@ int get_process_info(char *test){
                         printf("%s", process.p_state);}
 		else if(strstr(line_buff, tid) != NULL){
 			strcpy(list_location -> p_thread_grp, line_buff);
-			printf("%s", process.p_thread_grp);}       
+			printf("%s", list_location -> p_thread_grp);}
+	 	else if(strstr(line_buff, pid) != NULL){
+			strcpy(list_location -> p_pid, line_buff);}
+		else if(strstr(line_buff, ppid) != NULL){
+			strcpy(list_location -> p_ppid, line_buff);}
+		else if(strstr(line_buff, tpid) != NULL){
+			strcpy(list_location -> tracer_pid, line_buff);}
+		else if(strstr(line_buff, uid) != NULL){
+			strcpy(list_location -> uid, line_buff);}
+		else if(strstr(line_buff, gid) != NULL){
+			strcpy(list_location -> gid, line_buff);}
+		else if(strstr(line_buff, fsz) != NULL){
+			strcpy(list_location -> fd_size, line_buff);}
+		else if(strstr(line_buff, thr) != NULL){
+			strcpy(list_location -> threads, line_buff);}
+		else if(strstr(line_buff, vpk) != NULL){
+			strcpy(list_location -> vmPeak, line_buff);}
+		else if(strstr(line_buff, vsz) != NULL){
+			strcpy(list_location -> vmSize, line_buff);}
+		else if(strstr(line_buff, vlk) != NULL){
+			strcpy(list_location -> vmLck, line_buff);}
+		else if(strstr(line_buff, vhw) != NULL){
+			strcpy(list_location -> vmHWM, line_buff);}
+		else if(strstr(line_buff, vrs) != NULL){
+			strcpy(line_location -> vmRSS, line_buff);}
+		else if(strstr(line_buff, vdd) != NULL){
+			strcpy(line_location -> vmData, line_buff);}
+		else if(strstr(line_buff, vstk) != NULL){
+			strcpy(line_location -> vmStk, line_buff);}
+		else if(strstr(line_buff, vexe) != NULL){
+			strcpy(line_location -> vmExe, line_buff);}
+		else if(strstr(line_buff, vlib) != NULL){
+			strcpy(line_location -> vmLib, line_buff);}
+		else if(strstr(line_buff, vpte) != NULL){
+			strcpy(line_location -> vmPTE, line_buff);}
+		list_location -> next = malloc(sizeof(struct Proc_Info)); //Create Next New List
+		list_location = list_location -> next; // Points to next location (end of list)
         }
 
 return 0;
