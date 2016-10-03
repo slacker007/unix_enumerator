@@ -16,7 +16,7 @@
 int get_process_info(char *test); // Enumerate Process info
 int lst_procs();
 
-typedef struct{
+struct Proc_Info{
 	char p_name[MAX_LN];	// Name of command run by process
 	char p_state[MAX_LN];	// State of process
 	char p_thread_grp[MAX_LN];	// thread group ID
@@ -37,13 +37,20 @@ typedef struct{
 	char p_vmExe[MAX_LN];	// Text Size
 	char p_vmLib[MAX_LN];	// Shared Lib Size
 	char p_vmPTE[MAX_LN];	// Size of page table
-} Proc_Info;
+	struct Proc_Info *next;	// Pointer to the next entry
+};
 
-
+struct Proc_Info *top_of_list; // This is the top of the list 
+struct Proc_Info *list_location; // This is the location during list operations
+	
 int main(void){
 	int cnt;
 	DIR *dir;
 	struct dirent *ent;
+	
+        //Linked List 
+	top_of_list = malloc(sizeof(struct Proc_Info));
+	top_of_list -> next = 0;
 
 	pid_t p_id;   // var for current pid of this process
 	pid_t pp_id; // var for parent pid of this process
@@ -63,7 +70,8 @@ int main(void){
 		if (isdigit(*ent->d_name)){
 			char p_dir[20] = "/proc/";
 			strcat(p_dir, ent->d_name);
-			printf("P_DIR: %s\n", p_dir);}}
+			strcat(p_dir, "/status");
+			printf("Test: %s\n", p_dir);}}
 	(void)closedir(dir);
 
 return 0;
@@ -140,15 +148,46 @@ int get_process_info(char *test){
         char line_buff[50];
         FILE* fp = fopen(test, "r");
         Proc_Info process;
+
+	//Initialize L-List w/ dummy vals
+	strcpy(top_of_list -> p_name, "..");
+	strcpy(top_of_list -> p_state, "..");
+	strcpy(top_of_list -> p_thread_grp, "..");
+	strcpy(top_of_list -> p_pid, "..");
+	strcpy(top_of_list -> p_ppid, "..");
+	strcpy(top_of_list -> p_tracer_pid, "..");
+	strcpy(top_of_list -> p_threads, "..");
+	strcpy(top_of_list -> p_fd_Size, "..");
+	strcpy(top_of_list -> p_uid, "..");
+	strcpy(top_of_list -> p_gid, "..");
+	strcpy(top_of_list -> p_vmPeak, "..");
+	strcpy(top_of_list -> p_vmSize, "..");
+	strcpy(top_of_list -> p_vmLck, "..");
+	strcpy(top_of_list -> p_vmHWM, "..");
+	strcpy(top_of_list -> p_vmRSS, "..");
+	strcpy(top_of_list -> p_vmData, "..");
+	strcpy(top_of_list -> p_vmStk, "..");
+	strcpy(top_of_list -> p_vmExe, "..");
+	strcpy(top_of_list -> p_vmLib, "..");
+	strcpy(top_of_list -> p_vmPTE, "..");
+
+
+
+
+
+	
+	if (list_location != 0){  //Ensure the list pointer is at base of the list
+		while (list_location -> next != 0){
+			list_location = list_location -> next;}}
         while (fgets(line_buff, sizeof(line_buff), fp) != NULL){
                 if(strstr(line_buff, nm) != NULL){
-                        strcpy(process.p_name, line_buff);
-                        printf("%s", process.p_name);}
+                        strcpy(list_location -> p_name, line_buff);
+                        printf("%s", list_location -> p_name);}
                 else if(strstr(line_buff, st) != NULL){
-                        strcpy(process.p_state, line_buff);
+                        strcpy(list_location -> p_state, line_buff);
                         printf("%s", process.p_state);}
 		else if(strstr(line_buff, tid) != NULL){
-			strcpy(process.p_thread_grp, line_buff);
+			strcpy(list_location -> p_thread_grp, line_buff);
 			printf("%s", process.p_thread_grp);}       
         }
 
