@@ -3,7 +3,7 @@
 
 #include <unistd.h>  // Current PID & PPID Library
 #include <stdio.h>   // I/O
-#include <stdlib.h>
+#include <stdlib.h>  // Memory Allocation 
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h> // File Handling
