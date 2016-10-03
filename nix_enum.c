@@ -48,6 +48,9 @@ int main(void){
 	DIR *dir;
 	struct dirent *ent;
 	
+	char p_arry[350][20];
+	int p_cnt = 0;
+
         //Linked List 
 	top_of_list = malloc(sizeof(struct Proc_Info));
 	top_of_list -> next = 0;
@@ -86,20 +89,19 @@ int main(void){
 	//lst_procs();
 	//printf("DBG: %d\n", 3);
 	int ctrl = 1; 
-	do{	
-		dir = opendir("/proc/");
-		if ((ent = readdir(dir)) != NULL){
-			if (isdigit(*ent->d_name)){
-				//(void)closedir(dir);
-				char temp1[20] = "/proc/";
-				strcat(temp1, ent->d_name);
-				strcat(temp1, "/status");
-				(void)closedir(dir);
-				get_process_info(temp1);}}
-			else{
-				(void)closedir(dir);
-				ctrl = 0;}
-	} while(ctrl == 1);
+	dir = opendir("/proc/");
+	while ((ent = readdir(dir)) != NULL){	
+		if (isdigit(*ent->d_name)){
+		//(void)closedir(dir);
+		char temp1[20] = "/proc/";
+		strcat(temp1, ent->d_name);
+		strcat(temp1, "/status");
+		strcpy(p_arry[p_cnt], temp1);
+		p_cnt += 1;}}
+	(void)closedir(dir);		
+	
+	for (int i = 0; i < p_cnt; i++){
+		get_process_info(p_arry[i]);}
 //			printf("Loading: %s<--\n", temp2);}}
 
 return 0;
@@ -174,7 +176,7 @@ int get_process_info(char test[20]){
         char *vpte = "VmPTE:";
 
         char line_buff[50];
-//	printf("test: %s<---\n", test);
+	printf("test: %s<---\n", test);
         FILE* fp = fopen(test, "r");
 
 	if (list_location != 0){  //Ensure the list pointer is at base of the list
