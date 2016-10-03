@@ -11,9 +11,9 @@
 #include <string.h> // String Functions
 
 #define MAX_PID 50  // Size of buffer to read the MAX PID for the system
-#define MAX_LN 50 // Max size of data for process attribute
+#define MAX_LN 150 // Max size of data for process attribute
 
-int get_process_info(char *test); // Enumerate Process info
+int get_process_info(char x[]); // Enumerate Process info
 int lst_procs();
 
 struct Proc_Info{
@@ -51,6 +51,27 @@ int main(void){
         //Linked List 
 	top_of_list = malloc(sizeof(struct Proc_Info));
 	top_of_list -> next = 0;
+	//Initialize L-List w/ dummy vals
+        strcpy(top_of_list -> p_name, "..");
+        strcpy(top_of_list -> p_state, "..");
+        strcpy(top_of_list -> p_thread_grp, "..");
+        strcpy(top_of_list -> p_pid, "..");
+        strcpy(top_of_list -> p_ppid, "..");
+        strcpy(top_of_list -> p_tracer_pid, "..");
+        strcpy(top_of_list -> p_threads, "..");
+        strcpy(top_of_list -> p_fd_size, "..");
+        strcpy(top_of_list -> p_uid, "..");
+        strcpy(top_of_list -> p_gid, "..");
+        strcpy(top_of_list -> p_vmPeak, "..");
+        strcpy(top_of_list -> p_vmSize, "..");
+        strcpy(top_of_list -> p_vmLck, "..");
+        strcpy(top_of_list -> p_vmHWM, "..");
+        strcpy(top_of_list -> p_vmRSS, "..");
+        strcpy(top_of_list -> p_vmData, "..");
+        strcpy(top_of_list -> p_vmStk, "..");
+        strcpy(top_of_list -> p_vmExe, "..");
+	strcpy(top_of_list -> p_vmLib, "..");
+	strcpy(top_of_list -> p_vmPTE, "..");
 
 	pid_t p_id;   // var for current pid of this process
 	pid_t pp_id; // var for parent pid of this process
@@ -58,26 +79,32 @@ int main(void){
 	pp_id = getppid(); // parent pid 
 
 	printf("Current Process -> PID: %d PPID %d\n", p_id, pp_id); //dbg
-	char *test = "/proc/1/status"; // Dbg
+//	char *test = "/proc/1/status"; // Dbg
 	printf("Dbg1 %d\n", 1);
 	//get_process_info(test);
 	//printf("Dbg2 %d\n", 2);
 	//lst_procs();
 	//printf("DBG: %d\n", 3);
-
-	dir = opendir("/proc/");
-	while((ent = readdir(dir)) != NULL){
-		if (isdigit(*ent->d_name)){
-			char p_dir[20] = "/proc/";
-			strcat(p_dir, ent->d_name);
-			strcat(p_dir, "/status");
-			get_process_info(p_dir);
-			printf("Loading: %s\n", p_dir);}}
-	(void)closedir(dir);
+	int ctrl = 1; 
+	do{	
+		dir = opendir("/proc/");
+		if ((ent = readdir(dir)) != NULL){
+			if (isdigit(*ent->d_name)){
+				//(void)closedir(dir);
+				char temp1[20] = "/proc/";
+				strcat(temp1, ent->d_name);
+				strcat(temp1, "/status");
+				(void)closedir(dir);
+				get_process_info(temp1);}}
+			else{
+				(void)closedir(dir);
+				ctrl = 0;}
+	} while(ctrl == 1);
+//			printf("Loading: %s<--\n", temp2);}}
 
 return 0;
 }
-
+/*
 int lst_procs(){
 	DIR *dp;
 	struct dirent *eptr;
@@ -121,8 +148,8 @@ int lst_procs(){
 		printf("ERROR %d", 1);}
 return 0;
 }
-
-int get_process_info(char *test){
+*/
+int get_process_info(char test[20]){
 	
 	// Process Attributes
         char *nm = "Name:";
@@ -147,31 +174,8 @@ int get_process_info(char *test){
         char *vpte = "VmPTE:";
 
         char line_buff[50];
+//	printf("test: %s<---\n", test);
         FILE* fp = fopen(test, "r");
-        Proc_Info process;
-
-	//Initialize L-List w/ dummy vals
-	strcpy(top_of_list -> p_name, "..");
-	strcpy(top_of_list -> p_state, "..");
-	strcpy(top_of_list -> p_thread_grp, "..");
-	strcpy(top_of_list -> p_pid, "..");
-	strcpy(top_of_list -> p_ppid, "..");
-	strcpy(top_of_list -> p_tracer_pid, "..");
-	strcpy(top_of_list -> p_threads, "..");
-	strcpy(top_of_list -> p_fd_Size, "..");
-	strcpy(top_of_list -> p_uid, "..");
-	strcpy(top_of_list -> p_gid, "..");
-	strcpy(top_of_list -> p_vmPeak, "..");
-	strcpy(top_of_list -> p_vmSize, "..");
-	strcpy(top_of_list -> p_vmLck, "..");
-	strcpy(top_of_list -> p_vmHWM, "..");
-	strcpy(top_of_list -> p_vmRSS, "..");
-	strcpy(top_of_list -> p_vmData, "..");
-	strcpy(top_of_list -> p_vmStk, "..");
-	strcpy(top_of_list -> p_vmExe, "..");
-	strcpy(top_of_list -> p_vmLib, "..");
-	strcpy(top_of_list -> p_vmPTE, "..");
-
 
 	if (list_location != 0){  //Ensure the list pointer is at base of the list
 		while (list_location -> next != 0){
@@ -182,7 +186,7 @@ int get_process_info(char *test){
                         printf("%s", list_location -> p_name);}
                 else if(strstr(line_buff, st) != NULL){
                         strcpy(list_location -> p_state, line_buff);
-                        printf("%s", process.p_state);}
+                        printf("%s", list_location -> p_state);}
 		else if(strstr(line_buff, tid) != NULL){
 			strcpy(list_location -> p_thread_grp, line_buff);
 			printf("%s", list_location -> p_thread_grp);}
@@ -191,38 +195,37 @@ int get_process_info(char *test){
 		else if(strstr(line_buff, ppid) != NULL){
 			strcpy(list_location -> p_ppid, line_buff);}
 		else if(strstr(line_buff, tpid) != NULL){
-			strcpy(list_location -> tracer_pid, line_buff);}
+			strcpy(list_location -> p_tracer_pid, line_buff);}
 		else if(strstr(line_buff, uid) != NULL){
-			strcpy(list_location -> uid, line_buff);}
+			strcpy(list_location -> p_uid, line_buff);}
 		else if(strstr(line_buff, gid) != NULL){
-			strcpy(list_location -> gid, line_buff);}
+			strcpy(list_location -> p_gid, line_buff);}
 		else if(strstr(line_buff, fsz) != NULL){
-			strcpy(list_location -> fd_size, line_buff);}
+			strcpy(list_location -> p_fd_size, line_buff);}
 		else if(strstr(line_buff, thr) != NULL){
-			strcpy(list_location -> threads, line_buff);}
+			strcpy(list_location -> p_threads, line_buff);}
 		else if(strstr(line_buff, vpk) != NULL){
-			strcpy(list_location -> vmPeak, line_buff);}
+			strcpy(list_location -> p_vmPeak, line_buff);}
 		else if(strstr(line_buff, vsz) != NULL){
-			strcpy(list_location -> vmSize, line_buff);}
+			strcpy(list_location -> p_vmSize, line_buff);}
 		else if(strstr(line_buff, vlk) != NULL){
-			strcpy(list_location -> vmLck, line_buff);}
+			strcpy(list_location -> p_vmLck, line_buff);}
 		else if(strstr(line_buff, vhw) != NULL){
-			strcpy(list_location -> vmHWM, line_buff);}
+			strcpy(list_location -> p_vmHWM, line_buff);}
 		else if(strstr(line_buff, vrs) != NULL){
-			strcpy(line_location -> vmRSS, line_buff);}
+			strcpy(list_location -> p_vmRSS, line_buff);}
 		else if(strstr(line_buff, vdd) != NULL){
-			strcpy(line_location -> vmData, line_buff);}
+			strcpy(list_location -> p_vmData, line_buff);}
 		else if(strstr(line_buff, vstk) != NULL){
-			strcpy(line_location -> vmStk, line_buff);}
+			strcpy(list_location -> p_vmStk, line_buff);}
 		else if(strstr(line_buff, vexe) != NULL){
-			strcpy(line_location -> vmExe, line_buff);}
+			strcpy(list_location -> p_vmExe, line_buff);}
 		else if(strstr(line_buff, vlib) != NULL){
-			strcpy(line_location -> vmLib, line_buff);}
+			strcpy(list_location -> p_vmLib, line_buff);}
 		else if(strstr(line_buff, vpte) != NULL){
-			strcpy(line_location -> vmPTE, line_buff);}
-		list_location -> next = malloc(sizeof(struct Proc_Info)); //Create Next New List
-		list_location = list_location -> next; // Points to next location (end of list)
-        }
+			strcpy(list_location -> p_vmPTE, line_buff);}}
+	list_location -> next = malloc(sizeof(struct Proc_Info)); //Create Next New List
+	list_location = list_location -> next; // Points to next location (end of list)
 
 return 0;
 }
