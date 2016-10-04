@@ -11,9 +11,9 @@
 #include <string.h> // String Functions
 
 #define MAX_PID 50  // Size of buffer to read the MAX PID for the system
-#define MAX_LN 150 // Max size of data for process attribute
+#define MAX_LN 50 // Max size of data for process attribute
 
-int get_process_info(char x[]); // Enumerate Process info
+int get_process_info(char *test); // Enumerate Process info
 int lst_procs();
 
 struct Proc_Info{
@@ -48,7 +48,7 @@ int main(void){
 	DIR *dir;
 	struct dirent *ent;
 	
-	char p_arry[350][20];
+	char p_arry[100][20];
 	int p_cnt = 0;
 
         //Linked List 
@@ -83,7 +83,7 @@ int main(void){
 
 	printf("Current Process -> PID: %d PPID %d\n", p_id, pp_id); //dbg
 //	char *test = "/proc/1/status"; // Dbg
-	printf("Dbg1 %d\n", 1);
+	//printf("Dbg1 %d\n", 1);
 	//get_process_info(test);
 	//printf("Dbg2 %d\n", 2);
 	//lst_procs();
@@ -102,7 +102,6 @@ int main(void){
 	
 	for (int i = 0; i < p_cnt; i++){
 		get_process_info(p_arry[i]);}
-//			printf("Loading: %s<--\n", temp2);}}
 
 return 0;
 }
@@ -151,7 +150,7 @@ int lst_procs(){
 return 0;
 }
 */
-int get_process_info(char test[20]){
+int get_process_info(char *test){
 	
 	// Process Attributes
         char *nm = "Name:";
@@ -176,22 +175,25 @@ int get_process_info(char test[20]){
         char *vpte = "VmPTE:";
 
         char line_buff[50];
-	printf("test: %s<---\n", test);
         FILE* fp = fopen(test, "r");
 
 	if (list_location != 0){  //Ensure the list pointer is at base of the list
 		while (list_location -> next != 0){
 			list_location = list_location -> next;}}
-        while (fgets(line_buff, sizeof(line_buff), fp) != NULL){
+        while (fgets(line_buff, 250, fp) != NULL){
                 if(strstr(line_buff, nm) != NULL){
-                        strcpy(list_location -> p_name, line_buff);
-                        printf("%s", list_location -> p_name);}
+			char l_tmp[50];
+			strcpy(l_tmp, line_buff);
+	                strcpy(list_location.p_name, l_tmp);
+                        printf("%s<-", list_location.p_name);}
                 else if(strstr(line_buff, st) != NULL){
-                        strcpy(list_location -> p_state, line_buff);
-                        printf("%s", list_location -> p_state);}
+                        //strncpy(list_location -> p_state, line_buff, sizeof(list_location -> p_state - 1));
+			char l_tmp2[100];
+			strcpy(l_tmp2, line_buff);
+                        printf("%s<-", l_tmp2);}
 		else if(strstr(line_buff, tid) != NULL){
-			strcpy(list_location -> p_thread_grp, line_buff);
-			printf("%s", list_location -> p_thread_grp);}
+			//strcpy(list_location -> p_thread_grp, line_buff);
+			printf("%s", line_buff);}}/*
 	 	else if(strstr(line_buff, pid) != NULL){
 			strcpy(list_location -> p_pid, line_buff);}
 		else if(strstr(line_buff, ppid) != NULL){
@@ -225,9 +227,13 @@ int get_process_info(char test[20]){
 		else if(strstr(line_buff, vlib) != NULL){
 			strcpy(list_location -> p_vmLib, line_buff);}
 		else if(strstr(line_buff, vpte) != NULL){
-			strcpy(list_location -> p_vmPTE, line_buff);}}
+			strcpy(list_location -> p_vmPTE, line_buff);}}*/
+		//free(line_buff);
+	fclose(fp);
+
 	list_location -> next = malloc(sizeof(struct Proc_Info)); //Create Next New List
 	list_location = list_location -> next; // Points to next location (end of list)
+
 
 return 0;
 }
