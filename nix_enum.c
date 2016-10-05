@@ -15,53 +15,10 @@
 #define MAX_LN 24 // Max size of filename for process
 
 int get_process_info(char *test); // Enumerate Process info
-int lst_procs();
+int get_process_mem_stats(char *pid); // Enumerate Proc Mem Stats
 bool startsWith(const char *str, const char *pre); // Search Line for String
 
-int main(void){
 
-	DIR *dir;	// Variable Declaration for Directory
-	DIR *dp;	
-	struct dirent *ent; // Variable Declaration for Directory struct
-	
-	int p_cnt = 0; // Counter to track number of processes
-
-        int sys_max_pid; // max int value for a pid on current system
-	int fd = 0; // file handle
-	char pid_buffer[MAX_PID];  // buffer to read contents of pid_max file
-	ssize_t n  = 0; // variable for return val of file read function
-	
-	
-        // Get the max # of running processes possible for this sys
-        fd  = open("/proc/sys/kernel/pid_max", O_RDONLY);
-	n = read(fd, pid_buffer, MAX_PID); // Read Max_Pid from file
-	close(fd); // Close File 
-	sys_max_pid = atoi(pid_buffer); // convert the string val of pid to an INT
-	char p_arry[sys_max_pid][24]; // MultiDimensional array to hold processes
-	printf("MAX PID VALUE: %s", &pid_buffer); // Debug STMT to print MAX # of Pids
-	
-	// Get Current PID
-	pid_t p_id;   // var for current pid of this process
-	pid_t pp_id; // var for parent pid of this process
-	p_id = getpid(); // current pid
-	pp_id = getppid(); // parent pid 
-	printf("Current Process -> PID: %d PPID %d\n", p_id, pp_id); // DBG STMT
-
-	// Get process directories
-	dir = opendir("/proc/");
-	while ((ent = readdir(dir)) != NULL){	// Loop through process Directory
-		if (isdigit(*ent->d_name)){	// If the Directory is made up of numeric digits
-		char temp1[20] = "/proc/"; 	// Declaration & Initialization of temp1 Arrary of processes 
-		strcat(temp1, ent->d_name);	// Append the process ID to the root path
-		strcpy(p_arry[p_cnt], temp1);	// Append final path to the Array at position (p_cnt)
-		p_cnt += 1;}}			// Incriment to the next position in array 
-	(void)closedir(dir);			// Close '/proc/' Directory
-	
-	for (int i = 0; i < p_cnt - 1; i++){	// For loop to enumerate process information for each value in process array
-		get_process_info(p_arry[i]);}	// Call to get_process_info function that passes in absolute path to process 
-
-return 0;					// return (exit from function)
-}
 
 bool startsWith(const char *str, const char *pre){	// Function to search string from the beginning looking for prefix matches
 	size_t lenpre = strlen(pre), // Get the length of string prefix
@@ -94,6 +51,7 @@ int get_process_info(char *test){
         char *vpte = "VmPTE:";
       
         char line_buff[250];	// Buffer for lines read from file
+
 	strcat(test, "/status");	// Append filename (status) to the previously created path
 
         FILE *fp = fopen(test, "r");	// Declaration & Initialization of file pointer
@@ -147,9 +105,57 @@ int get_process_info(char *test){
 			fclose(fp);  // Close process file
 			fclose(fp2); // Close output file
 			return 0;}}
-	
+
 	fputs("---------------------------------------\n", fp2);  // Write line to seperate process info
-
-
 return 0; // Exit Function
+}
+
+int get_process_mem_stats(char *pid){
+  
+  return 0;
+}
+
+int main(void){
+
+	DIR *dir;	// Variable Declaration for Directory
+	DIR *dp;	
+	struct dirent *ent; // Variable Declaration for Directory struct
+	
+	int p_cnt = 0; // Counter to track number of processes
+
+        int sys_max_pid; // max int value for a pid on current system
+	int fd = 0; // file handle
+	char pid_buffer[MAX_PID];  // buffer to read contents of pid_max file
+	ssize_t n  = 0; // variable for return val of file read function
+	
+	
+        // Get the max # of running processes possible for this sys
+        fd  = open("/proc/sys/kernel/pid_max", O_RDONLY);
+	n = read(fd, pid_buffer, MAX_PID); // Read Max_Pid from file
+	close(fd); // Close File 
+	sys_max_pid = atoi(pid_buffer); // convert the string val of pid to an INT
+	char p_arry[sys_max_pid][24]; // MultiDimensional array to hold processes
+	printf("MAX PID VALUE: %s", &pid_buffer); // Debug STMT to print MAX # of Pids
+	
+	// Get Current PID
+	pid_t p_id;   // var for current pid of this process
+	pid_t pp_id; // var for parent pid of this process
+	p_id = getpid(); // current pid
+	pp_id = getppid(); // parent pid 
+	printf("Current Process -> PID: %d PPID %d\n", p_id, pp_id); // DBG STMT
+
+	// Get process directories
+	dir = opendir("/proc/");
+	while ((ent = readdir(dir)) != NULL){	// Loop through process Directory
+		if (isdigit(*ent->d_name)){	// If the Directory is made up of numeric digits
+		char temp1[20] = "/proc/"; 	// Declaration & Initialization of temp1 Arrary of processes 
+		strcat(temp1, ent->d_name);	// Append the process ID to the root path
+		strcpy(p_arry[p_cnt], temp1);	// Append final path to the Array at position (p_cnt)
+		p_cnt += 1;}}			// Incriment to the next position in array 
+	(void)closedir(dir);			// Close '/proc/' Directory
+	
+	for (int i = 0; i < p_cnt - 1; i++){	// For loop to enumerate process information for each value in process array
+		get_process_info(p_arry[i]);}	// Call to get_process_info function that passes in absolute path to process 
+
+return 0;					// return (exit from function)
 }
