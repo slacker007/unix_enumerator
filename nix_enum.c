@@ -12,7 +12,7 @@
 #include <string.h> // String Functions
 
 #define MAX_PID 50  // Size of buffer to read the MAX PID for the system
-#define MAX_LN 50 // Max size of data for process attribute
+#define MAX_LN 24 // Max size of filename for process
 
 int get_process_info(char *test); // Enumerate Process info
 int lst_procs();
@@ -37,7 +37,7 @@ int main(void){
 	n = read(fd, pid_buffer, MAX_PID); // Read Max_Pid from file
 	close(fd); // Close File 
 	sys_max_pid = atoi(pid_buffer); // convert the string val of pid to an INT
-	char p_arry[sys_max_pid][20]; // MultiDimensional array to hold processes
+	char p_arry[sys_max_pid][24]; // MultiDimensional array to hold processes
 	printf("MAX PID VALUE: %s", &pid_buffer); // Debug STMT to print MAX # of Pids
 	
 	// Get Current PID
@@ -146,6 +146,9 @@ int get_process_info(char *test){
 			fclose(fp);  // Close process file
 			fclose(fp2); // Close output file
 			return 0;}}
+	
+	fputs("---------------------------------------\n", fp2);  // Write line to seperate process info
+
 
 return 0; // Exit Function
 }
