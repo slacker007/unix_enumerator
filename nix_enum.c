@@ -120,14 +120,11 @@ int main(void){
 	DIR *dir;	// Variable Declaration for Directory
 	DIR *dp;	
 	struct dirent *ent; // Variable Declaration for Directory struct
-	
 	int p_cnt = 0; // Counter to track number of processes
-
         int sys_max_pid; // max int value for a pid on current system
 	int fd = 0; // file handle
 	char pid_buffer[MAX_PID];  // buffer to read contents of pid_max file
 	ssize_t n  = 0; // variable for return val of file read function
-	
 	
         // Get the max # of running processes possible for this sys
         fd  = open("/proc/sys/kernel/pid_max", O_RDONLY);
