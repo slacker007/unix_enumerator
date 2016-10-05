@@ -53,7 +53,6 @@ int get_process_info(char *test){
         char line_buff[250];	// Buffer for lines read from file
 
 	strcat(test, "/status");	// Append filename (status) to the previously created path
-
         FILE *fp = fopen(test, "r");	// Declaration & Initialization of file pointer
 	FILE *fp2 = fopen("enum_data.txt", "a+");    // Declaration & Initialization of output file pointer
 
@@ -111,7 +110,26 @@ return 0; // Exit Function
 }
 
 int get_process_mem_stats(char *pid){
-  
+	char p_strg[53];
+	char l_bff1[50];
+	strcpy(p_strg, pid);
+	strcpy(p_strg, "statm");
+	char *prsd = strtok(p_strg, " ");
+	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
+	FILE *fp2 = fopen("enum_data.txt", "a+");
+	// Loop though open file and test each line with if statements
+        while (fgets(l_bff1, sizeof(l_bff1), fp3) != NULL){ 
+                if (!feof(fp3)){  // Ensure End of File has not been reached
+		  // CONTINUE MAKING CHANGES HERE... BREAKDOWN LINE FROM FILE
+		  // ADD LABELS TO SECTIONS AND WRITE TO FILE
+		  fputs(l_bff1, fp2);}
+	
+	
+	
+	while (prsd != NULL){
+	  printf("%s\n", prsd);
+	  prsd = strtok(NULL, " ");
+	}
   return 0;
 }
 
@@ -152,7 +170,8 @@ int main(void){
 	(void)closedir(dir);			// Close '/proc/' Directory
 	
 	for (int i = 0; i < p_cnt - 1; i++){	// For loop to enumerate process information for each value in process array
-		get_process_info(p_arry[i]);}	// Call to get_process_info function that passes in absolute path to process 
+		get_process_info(p_arry[i]);	// Call to get_process_info function that passes in absolute path to process
+		get_process_mem_stats(p_arry[i]);}	 
 
 return 0;					// return (exit from function)
 }
