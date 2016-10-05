@@ -53,7 +53,6 @@ int main(void){
 		if (isdigit(*ent->d_name)){	// If the Directory is made up of numeric digits
 		char temp1[20] = "/proc/"; 	// Declaration & Initialization of temp1 Arrary of processes 
 		strcat(temp1, ent->d_name);	// Append the process ID to the root path
-		strcat(temp1, "/status");	// Append filename (status) to the previously created path
 		strcpy(p_arry[p_cnt], temp1);	// Append final path to the Array at position (p_cnt)
 		p_cnt += 1;}}			// Incriment to the next position in array 
 	(void)closedir(dir);			// Close '/proc/' Directory
@@ -84,7 +83,7 @@ int get_process_info(char *test){
         char *fsz = "FDSize:";
         char *thr = "Threads:";
         char *vpk = "VmPeak:";
-        char *vsz = "VmSize:";
+        char *vsz = "VmSize:";	
         char *vlk = "VmLck:";
         char *vhw = "VmHWM:";
         char *vrs = "VmRSS:";
@@ -93,8 +92,10 @@ int get_process_info(char *test){
         char *vexe = "VmExe:";
         char *vlib = "VmLib:";
         char *vpte = "VmPTE:";
-
+      
         char line_buff[250];	// Buffer for lines read from file
+	strcat(test, "/status");	// Append filename (status) to the previously created path
+
         FILE *fp = fopen(test, "r");	// Declaration & Initialization of file pointer
 	FILE *fp2 = fopen("enum_data.txt", "a+");    // Declaration & Initialization of output file pointer
 
