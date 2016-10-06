@@ -184,8 +184,7 @@ int main(void){
 	
 	for (int i = 0; i < p_cnt - 1; i++){	// For loop to enumerate process information for each value in process array
 		get_process_info(p_arry[i]);	// Call to get_process_info function that passes in absolute path to process
-		//get_process_mem_stats(p_arry[i]);
-		printf("Main For Loop %s", p_arry[i]);}	 
+		get_process_mem_stats(p_arry[i]);}	 
 
 return 0;					// return (exit from function)
 }
