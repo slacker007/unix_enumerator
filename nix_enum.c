@@ -110,27 +110,39 @@ return 0; // Exit Function
 }
 
 int get_process_mem_stats(char *pid){
-	char p_strg[53];
-	char l_bff1[50];
-	strcpy(p_strg, pid);
-	strcpy(p_strg, "statm");
-	char *prsd = strtok(p_strg, " ");
-	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
+	char p_strg[150];
+	char l_buff[150];
+	int fd;
+	ssize_t n;
+
+	strcpy(pid, "statm");
+//	FILE *fp3 = fopen(pid, "r"); // Open File for Process Mem Stats
 	FILE *fp2 = fopen("enum_data.txt", "a+");
+
+	fd = open(pid, O_RDONLY);
+	if (fd == -1){
+		printf("Error, File Open");} 
+
+	n = read(fd, l_buff, sizeof(l_buff));
+	printf("Buffer %s", l_buff);
+/*
 	// Loop though open file and test each line with if statements
-        while (fgets(l_bff1, sizeof(l_bff1), fp3) != NULL){ 
-                if (!feof(fp3)){  // Ensure End of File has not been reached
-		  // CONTINUE MAKING CHANGES HERE... BREAKDOWN LINE FROM FILE
-		  // ADD LABELS TO SECTIONS AND WRITE TO FILE
-		  fputs(l_bff1, fp2);}
-	
-	
-	
-	while (prsd != NULL){
-	  printf("%s\n", prsd);
-	  prsd = strtok(NULL, " ");
-	}
-  return 0;
+        if (fgets(l_bff1, sizeof(l_bff1), fp3) != NULL){ 
+		// CONTINUE MAKING CHANGES HERE... BREAKDOWN LINE FROM FILE
+		// ADD LABELS TO SECTIONS AND WRITE TO FILE
+		char *prsd = strtok(l_bff1, " ");
+		while (prsd != NULL){
+			printf("%s\n", prsd);
+			prsd = strtok(NULL, " ");}}
+		//strcpy(p_strg, l_bff1);
+//	else {
+*/
+		fclose(fd); 
+		fclose(fp2);
+//		return 0;
+//}			
+//			fputs(l_bff1, fp2);}
+return 0;
 }
 
 int main(void){
