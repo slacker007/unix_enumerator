@@ -17,13 +17,53 @@
 int get_process_info(char *test); // Enumerate Process info
 int get_process_mem_stats(char *pid); // Enumerate Proc Mem Stats
 bool startsWith(const char *str, const char *pre); // Search Line for String
-
-
+int get_kernel_info(); // Enumerate Kernel Info
 
 bool startsWith(const char *str, const char *pre){	// Function to search string from the beginning looking for prefix matches
 	size_t lenpre = strlen(pre), // Get the length of string prefix
 	       lenstr = strlen(str); // Get the lenght of full string
 	return lenstr < lenpre ? false : strncmp(pre, str, lenpre) == 0; // compare length of prefix and full string then compare strings 
+}
+
+int get_kernel_info(){
+	char *k_ost = "/proc/sys/kernel/ostype";
+	char *k_rel = "/proc/sys/kernel/osrelease";
+	char *k_ver = "/proc/sys/kernel/version";
+
+	char l_buff[50];
+	char p_str[70];
+	int fd1;
+	int fd2;
+	int fd3;
+
+	ssize_t n;      // variable for amount of bytes read into buffer
+ 
+        FILE *fp2 = fopen("enum_data.txt", "a+");
+        fd1 = open(k_ost, O_RDONLY); // open process file for (pid) return file descriptor into (fd)
+	fd2 = open(k_rel, O_RDONLY);
+	fd3 = open(k_ver, O_RDONLY);
+        if (fd1 == -1){
+	        printf("Error, Unable to Open File");}
+	else{
+                fputs("--------------OS INFO------------\n", fp2);
+                n = read(fd1, l_buff, sizeof(l_buff)); // Read in Data from kernel ostype
+		sprintf(p_str, "OS TYPE: %s\0", l_buff);
+		fputs(p_str, fp2);}
+	if (fd2 == -1){
+	        printf("Error, Unable to Open File");}
+	else{
+                n = read(fd2, l_buff, sizeof(l_buff)); // Read in Data from kernel ostype
+		sprintf(p_str, "OS RELEASE: %s\0", l_buff);
+		fputs(p_str, fp2);}
+	if (fd3 == -1){
+	        printf("Error, Unable to Open File");}
+	else{
+                n = read(fd3, l_buff, sizeof(l_buff)); // Read in Data from kernel ostype
+		sprintf(p_str, "OS VERSION: %s\n", l_buff);
+		fputs(p_str, fp2);
+                fputs("--------------------------------\n", fp2);}
+	fclose(fp2);
+return 0;
 }
 
 int get_process_info(char *test){
@@ -204,7 +244,7 @@ int main(void){
 		strcpy(p_arry[p_cnt], temp1);	// Append final path to the Array at position (p_cnt)
 		p_cnt += 1;}}			// Incriment to the next position in array 
 	(void)closedir(dir);			// Close '/proc/' Directory
-	
+	get_kernel_info();
 	for (int i = 0; i < p_cnt - 1; i++){	// For loop to enumerate process information for each value in process array
 		get_process_info(p_arry[i]);	// Call to get_process_info function that passes in absolute path to process
 		get_process_mem_stats(p_arry[i]);
