@@ -1,0 +1,6673 @@
+Name:	kworker/u16:2
+State:	S (sleeping)
+Tgid:	12321
+Pid:	12321
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/u16:0
+State:	S (sleeping)
+Tgid:	11953
+Pid:	11953
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/u16:1
+State:	S (sleeping)
+Tgid:	11906
+Pid:	11906
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:2
+State:	S (sleeping)
+Tgid:	11340
+Pid:	11340
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:1
+State:	S (sleeping)
+Tgid:	10847
+Pid:	10847
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	cupsd
+State:	S (sleeping)
+Tgid:	10690
+Pid:	10690
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   76864 kB
+VmSize:	   76860 kB
+VmLck:	       0 kB
+VmHWM:	    6632 kB
+VmRSS:	    6632 kB
+VmData:	     792 kB
+VmStk:	     136 kB
+VmExe:	     388 kB
+VmLib:	    7588 kB
+VmPTE:	     164 kB
+Threads:	1
+---------------------------------------
+Name:	gedit
+State:	T (stopped)
+Tgid:	9822
+Pid:	9822
+PPid:	5054
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	  706244 kB
+VmSize:	  702148 kB
+VmLck:	       0 kB
+VmHWM:	   57012 kB
+VmRSS:	   57012 kB
+VmData:	  314836 kB
+VmStk:	     212 kB
+VmExe:	     656 kB
+VmLib:	   27124 kB
+VmPTE:	     712 kB
+Threads:	4
+---------------------------------------
+Name:	vim
+State:	S (sleeping)
+Tgid:	5670
+Pid:	5670
+PPid:	4594
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	   50324 kB
+VmSize:	   50148 kB
+VmLck:	       0 kB
+VmHWM:	    8068 kB
+VmRSS:	    8068 kB
+VmData:	    2728 kB
+VmStk:	     136 kB
+VmExe:	    2052 kB
+VmLib:	    6892 kB
+VmPTE:	     104 kB
+Threads:	1
+---------------------------------------
+Name:	bash
+State:	S (sleeping)
+Tgid:	5054
+Pid:	5054
+PPid:	4587
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	   23396 kB
+VmSize:	   23332 kB
+VmLck:	       0 kB
+VmHWM:	    6296 kB
+VmRSS:	    6276 kB
+VmData:	    2636 kB
+VmStk:	     136 kB
+VmExe:	     956 kB
+VmLib:	    2280 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	bash
+State:	S (sleeping)
+Tgid:	4594
+Pid:	4594
+PPid:	4587
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	   23376 kB
+VmSize:	   23312 kB
+VmLck:	       0 kB
+VmHWM:	    6288 kB
+VmRSS:	    6272 kB
+VmData:	    2616 kB
+VmStk:	     136 kB
+VmExe:	     956 kB
+VmLib:	    2280 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	gnome-pty-helpe
+State:	S (sleeping)
+Tgid:	4593
+Pid:	4593
+PPid:	4587
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	43	43	43
+FDSize:	64
+VmPeak:	   14952 kB
+VmSize:	   14824 kB
+VmLck:	       0 kB
+VmHWM:	    1864 kB
+VmRSS:	    1864 kB
+VmData:	     200 kB
+VmStk:	     136 kB
+VmExe:	      12 kB
+VmLib:	    2128 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	gnome-terminal
+State:	S (sleeping)
+Tgid:	4587
+Pid:	4587
+PPid:	3255
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  679408 kB
+VmSize:	  623592 kB
+VmLck:	       0 kB
+VmHWM:	   39700 kB
+VmRSS:	   39700 kB
+VmData:	  307240 kB
+VmStk:	     136 kB
+VmExe:	     280 kB
+VmLib:	   22868 kB
+VmPTE:	     556 kB
+Threads:	4
+---------------------------------------
+Name:	firefox
+State:	R (running)
+Tgid:	3410
+Pid:	3410
+PPid:	3255
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	 1967164 kB
+VmSize:	 1883188 kB
+VmLck:	       0 kB
+VmHWM:	  990236 kB
+VmRSS:	  868704 kB
+VmData:	 1212856 kB
+VmStk:	     144 kB
+VmExe:	     112 kB
+VmLib:	  107488 kB
+VmPTE:	    2816 kB
+Threads:	59
+---------------------------------------
+Name:	applet.py
+State:	S (sleeping)
+Tgid:	3404
+Pid:	3404
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  269016 kB
+VmSize:	  216532 kB
+VmLck:	       0 kB
+VmHWM:	   23480 kB
+VmRSS:	   23480 kB
+VmData:	   84048 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   14268 kB
+VmPTE:	     288 kB
+Threads:	2
+---------------------------------------
+Name:	mintUpdate
+State:	S (sleeping)
+Tgid:	3368
+Pid:	3368
+PPid:	3367
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  635496 kB
+VmSize:	  634468 kB
+VmLck:	       0 kB
+VmHWM:	   44268 kB
+VmRSS:	   44208 kB
+VmData:	  234832 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   33188 kB
+VmPTE:	     592 kB
+Threads:	3
+---------------------------------------
+Name:	sh
+State:	S (sleeping)
+Tgid:	3367
+Pid:	3367
+PPid:	3363
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	    4448 kB
+VmSize:	    4448 kB
+VmLck:	       0 kB
+VmHWM:	     788 kB
+VmRSS:	     788 kB
+VmData:	     200 kB
+VmStk:	     136 kB
+VmExe:	     112 kB
+VmLib:	    1908 kB
+VmPTE:	      24 kB
+Threads:	1
+---------------------------------------
+Name:	cinnamon-screen
+State:	S (sleeping)
+Tgid:	3364
+Pid:	3364
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  481736 kB
+VmSize:	  463364 kB
+VmLck:	       0 kB
+VmHWM:	   58384 kB
+VmRSS:	   40284 kB
+VmData:	  235124 kB
+VmStk:	     136 kB
+VmExe:	     132 kB
+VmLib:	   20460 kB
+VmPTE:	     408 kB
+Threads:	4
+---------------------------------------
+Name:	mintupdate-laun
+State:	S (sleeping)
+Tgid:	3363
+Pid:	3363
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   24280 kB
+VmSize:	   24240 kB
+VmLck:	       0 kB
+VmHWM:	    7240 kB
+VmRSS:	    7236 kB
+VmData:	    2472 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	    3168 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	accounts-daemon
+State:	S (sleeping)
+Tgid:	3338
+Pid:	3338
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  287484 kB
+VmSize:	  287356 kB
+VmLck:	       0 kB
+VmHWM:	    6456 kB
+VmRSS:	    6456 kB
+VmData:	  221612 kB
+VmStk:	     136 kB
+VmExe:	     152 kB
+VmLib:	    7816 kB
+VmPTE:	     172 kB
+Threads:	3
+---------------------------------------
+Name:	dconf-service
+State:	S (sleeping)
+Tgid:	3333
+Pid:	3333
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  243716 kB
+VmSize:	  178312 kB
+VmLck:	       0 kB
+VmHWM:	    4760 kB
+VmRSS:	    4760 kB
+VmData:	  147980 kB
+VmStk:	     136 kB
+VmExe:	      72 kB
+VmLib:	    5440 kB
+VmPTE:	      92 kB
+Threads:	3
+---------------------------------------
+Name:	gvfsd-trash
+State:	S (sleeping)
+Tgid:	3312
+Pid:	3312
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  355228 kB
+VmSize:	  355224 kB
+VmLck:	       0 kB
+VmHWM:	    8456 kB
+VmRSS:	    8456 kB
+VmData:	  295460 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    7376 kB
+VmPTE:	     168 kB
+Threads:	3
+---------------------------------------
+Name:	gvfsd-metadata
+State:	S (sleeping)
+Tgid:	3306
+Pid:	3306
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  185752 kB
+VmSize:	  120436 kB
+VmLck:	       0 kB
+VmHWM:	    5576 kB
+VmRSS:	    5500 kB
+VmData:	   74272 kB
+VmStk:	     136 kB
+VmExe:	      68 kB
+VmLib:	    6028 kB
+VmPTE:	     116 kB
+Threads:	2
+---------------------------------------
+Name:	gconfd-2
+State:	S (sleeping)
+Tgid:	3297
+Pid:	3297
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   53308 kB
+VmSize:	   53276 kB
+VmLck:	       0 kB
+VmHWM:	    5392 kB
+VmRSS:	    5392 kB
+VmData:	     752 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    6340 kB
+VmPTE:	     120 kB
+Threads:	1
+---------------------------------------
+Name:	cinnamon-killer
+State:	S (sleeping)
+Tgid:	3268
+Pid:	3268
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  382852 kB
+VmSize:	  317452 kB
+VmLck:	       0 kB
+VmHWM:	   26400 kB
+VmRSS:	   26400 kB
+VmData:	  155492 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   20220 kB
+VmPTE:	     344 kB
+Threads:	3
+---------------------------------------
+Name:	nm-applet
+State:	S (sleeping)
+Tgid:	3267
+Pid:	3267
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  693248 kB
+VmSize:	  692688 kB
+VmLck:	       0 kB
+VmHWM:	   25700 kB
+VmRSS:	   25700 kB
+VmData:	  224804 kB
+VmStk:	     136 kB
+VmExe:	     300 kB
+VmLib:	   25576 kB
+VmPTE:	     476 kB
+Threads:	3
+---------------------------------------
+Name:	nemo
+State:	S (sleeping)
+Tgid:	3263
+Pid:	3263
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	 1335736 kB
+VmSize:	 1286672 kB
+VmLck:	       0 kB
+VmHWM:	   83848 kB
+VmRSS:	   83848 kB
+VmData:	  924984 kB
+VmStk:	     136 kB
+VmExe:	    1796 kB
+VmLib:	   30484 kB
+VmPTE:	     824 kB
+Threads:	4
+---------------------------------------
+Name:	polkit-gnome-au
+State:	S (sleeping)
+Tgid:	3261
+Pid:	3261
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  290492 kB
+VmSize:	  226100 kB
+VmLck:	       0 kB
+VmHWM:	   15440 kB
+VmRSS:	   15440 kB
+VmData:	   75728 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	   19784 kB
+VmPTE:	     308 kB
+Threads:	2
+---------------------------------------
+Name:	cinnamon
+State:	S (sleeping)
+Tgid:	3255
+Pid:	3255
+PPid:	3253
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	 1793132 kB
+VmSize:	 1774728 kB
+VmLck:	       0 kB
+VmHWM:	  156460 kB
+VmRSS:	  155044 kB
+VmData:	 1139632 kB
+VmStk:	     136 kB
+VmExe:	      12 kB
+VmLib:	   84552 kB
+VmPTE:	    1232 kB
+Threads:	6
+---------------------------------------
+Name:	cinnamon-launch
+State:	S (sleeping)
+Tgid:	3253
+Pid:	3253
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  303584 kB
+VmSize:	  239192 kB
+VmLck:	       0 kB
+VmHWM:	   27932 kB
+VmRSS:	   27932 kB
+VmData:	   81624 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   20168 kB
+VmPTE:	     340 kB
+Threads:	2
+---------------------------------------
+Name:	csd-printer
+State:	S (sleeping)
+Tgid:	3245
+Pid:	3245
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  387004 kB
+VmSize:	  387004 kB
+VmLck:	       0 kB
+VmHWM:	    8976 kB
+VmRSS:	    8976 kB
+VmData:	  221716 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	   22284 kB
+VmPTE:	     348 kB
+Threads:	2
+---------------------------------------
+Name:	colord
+State:	S (sleeping)
+Tgid:	3231
+Pid:	3231
+PPid:	1
+TracerPid:	0
+Uid:	109	109	109	109
+Gid:	119	119	119	119
+FDSize:	64
+VmPeak:	  301540 kB
+VmSize:	  301532 kB
+VmLck:	       0 kB
+VmHWM:	    8452 kB
+VmRSS:	    8452 kB
+VmData:	  222240 kB
+VmStk:	     136 kB
+VmExe:	     220 kB
+VmLib:	    8884 kB
+VmPTE:	     192 kB
+Threads:	3
+---------------------------------------
+Name:	gvfs-afc-volume
+State:	S (sleeping)
+Tgid:	3226
+Pid:	3226
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  281772 kB
+VmSize:	  281772 kB
+VmLck:	       0 kB
+VmHWM:	    6040 kB
+VmRSS:	    6040 kB
+VmData:	  221612 kB
+VmStk:	     136 kB
+VmExe:	      72 kB
+VmLib:	    9736 kB
+VmPTE:	     152 kB
+Threads:	3
+---------------------------------------
+Name:	gvfs-mtp-volume
+State:	S (sleeping)
+Tgid:	3222
+Pid:	3222
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  261620 kB
+VmSize:	  196084 kB
+VmLck:	       0 kB
+VmHWM:	    5372 kB
+VmRSS:	    5372 kB
+VmData:	  147868 kB
+VmStk:	     136 kB
+VmExe:	      72 kB
+VmLib:	    6064 kB
+VmPTE:	     128 kB
+Threads:	2
+---------------------------------------
+Name:	gvfs-gphoto2-vo
+State:	S (sleeping)
+Tgid:	3218
+Pid:	3218
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  273784 kB
+VmSize:	  208248 kB
+VmLck:	       0 kB
+VmHWM:	    5936 kB
+VmRSS:	    5936 kB
+VmData:	  148260 kB
+VmStk:	     136 kB
+VmExe:	      76 kB
+VmLib:	    7500 kB
+VmPTE:	     148 kB
+Threads:	2
+---------------------------------------
+Name:	udisksd
+State:	S (sleeping)
+Tgid:	3209
+Pid:	3209
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  436520 kB
+VmSize:	  371456 kB
+VmLck:	       0 kB
+VmHWM:	    8008 kB
+VmRSS:	    8000 kB
+VmData:	  304452 kB
+VmStk:	     136 kB
+VmExe:	     320 kB
+VmLib:	    6896 kB
+VmPTE:	     188 kB
+Threads:	5
+---------------------------------------
+Name:	gvfs-udisks2-vo
+State:	S (sleeping)
+Tgid:	3206
+Pid:	3206
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  294656 kB
+VmSize:	  294652 kB
+VmLck:	       0 kB
+VmHWM:	    8204 kB
+VmRSS:	    8204 kB
+VmData:	  221884 kB
+VmStk:	     136 kB
+VmExe:	     144 kB
+VmLib:	    7916 kB
+VmPTE:	     184 kB
+Threads:	3
+---------------------------------------
+Name:	gvfsd-fuse
+State:	S (sleeping)
+Tgid:	3121
+Pid:	3121
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  345668 kB
+VmSize:	  345668 kB
+VmLck:	       0 kB
+VmHWM:	    7812 kB
+VmRSS:	    7724 kB
+VmData:	  295636 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    6584 kB
+VmPTE:	     152 kB
+Threads:	5
+---------------------------------------
+Name:	gvfsd
+State:	S (sleeping)
+Tgid:	3105
+Pid:	3105
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  257988 kB
+VmSize:	  192452 kB
+VmLck:	       0 kB
+VmHWM:	    5396 kB
+VmRSS:	    5396 kB
+VmData:	  147856 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	    6600 kB
+VmPTE:	     120 kB
+Threads:	2
+---------------------------------------
+Name:	upowerd
+State:	S (sleeping)
+Tgid:	3006
+Pid:	3006
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  296536 kB
+VmSize:	  239368 kB
+VmLck:	       0 kB
+VmHWM:	    9244 kB
+VmRSS:	    7320 kB
+VmData:	  156240 kB
+VmStk:	     136 kB
+VmExe:	     152 kB
+VmLib:	   10808 kB
+VmPTE:	     192 kB
+Threads:	3
+---------------------------------------
+Name:	rtkit-daemon
+State:	S (sleeping)
+Tgid:	3002
+Pid:	3002
+PPid:	1
+TracerPid:	0
+Uid:	112	112	112	112
+Gid:	122	122	122	122
+FDSize:	64
+VmPeak:	  299988 kB
+VmSize:	  168916 kB
+VmLck:	       0 kB
+VmHWM:	    2548 kB
+VmRSS:	    2500 kB
+VmData:	  147684 kB
+VmStk:	     136 kB
+VmExe:	      56 kB
+VmLib:	    2536 kB
+VmPTE:	      76 kB
+Threads:	3
+---------------------------------------
+Name:	pulseaudio
+State:	S (sleeping)
+Tgid:	3000
+Pid:	3000
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  582920 kB
+VmSize:	  517308 kB
+VmLck:	       0 kB
+VmHWM:	   10092 kB
+VmRSS:	   10084 kB
+VmData:	  296644 kB
+VmStk:	     136 kB
+VmExe:	      80 kB
+VmLib:	   14228 kB
+VmPTE:	     364 kB
+Threads:	5
+---------------------------------------
+Name:	cinnamon-settin
+State:	S (sleeping)
+Tgid:	2987
+Pid:	2987
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  907568 kB
+VmSize:	  907560 kB
+VmLck:	       0 kB
+VmHWM:	   55408 kB
+VmRSS:	   38664 kB
+VmData:	  373424 kB
+VmStk:	     136 kB
+VmExe:	      32 kB
+VmLib:	   34408 kB
+VmPTE:	     756 kB
+Threads:	5
+---------------------------------------
+Name:	at-spi2-registr
+State:	S (sleeping)
+Tgid:	2978
+Pid:	2978
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  190456 kB
+VmSize:	  124920 kB
+VmLck:	       0 kB
+VmHWM:	    4860 kB
+VmRSS:	    4860 kB
+VmData:	   74140 kB
+VmStk:	     136 kB
+VmExe:	      80 kB
+VmLib:	    7348 kB
+VmPTE:	     120 kB
+Threads:	2
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	2975
+Pid:	2975
+PPid:	2971
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   39252 kB
+VmSize:	   39248 kB
+VmLck:	       0 kB
+VmHWM:	    3380 kB
+VmRSS:	    3380 kB
+VmData:	     380 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      96 kB
+Threads:	1
+---------------------------------------
+Name:	at-spi-bus-laun
+State:	S (sleeping)
+Tgid:	2971
+Pid:	2971
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  402944 kB
+VmSize:	  337524 kB
+VmLck:	       0 kB
+VmHWM:	    5568 kB
+VmRSS:	    5568 kB
+VmData:	  295304 kB
+VmStk:	     136 kB
+VmExe:	      16 kB
+VmLib:	    6844 kB
+VmPTE:	     128 kB
+Threads:	4
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	2898
+Pid:	2898
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   39704 kB
+VmSize:	   39700 kB
+VmLck:	       0 kB
+VmHWM:	    3012 kB
+VmRSS:	    3012 kB
+VmData:	     832 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      88 kB
+Threads:	1
+---------------------------------------
+Name:	dbus-launch
+State:	S (sleeping)
+Tgid:	2897
+Pid:	2897
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   24572 kB
+VmSize:	   24572 kB
+VmLck:	       0 kB
+VmHWM:	    1916 kB
+VmRSS:	    1916 kB
+VmData:	     340 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	    3492 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	ssh-agent
+State:	S (sleeping)
+Tgid:	2894
+Pid:	2894
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	113	1000
+FDSize:	64
+VmPeak:	   10628 kB
+VmSize:	   10628 kB
+VmLck:	       0 kB
+VmHWM:	     312 kB
+VmRSS:	     312 kB
+VmData:	     220 kB
+VmStk:	     136 kB
+VmExe:	     272 kB
+VmLib:	    3660 kB
+VmPTE:	      32 kB
+Threads:	1
+---------------------------------------
+Name:	cinnamon-sessio
+State:	S (sleeping)
+Tgid:	2768
+Pid:	2768
+PPid:	2103
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  397716 kB
+VmSize:	  397652 kB
+VmLck:	       0 kB
+VmHWM:	   16796 kB
+VmRSS:	   16796 kB
+VmData:	  223560 kB
+VmStk:	     136 kB
+VmExe:	     240 kB
+VmLib:	   20464 kB
+VmPTE:	     380 kB
+Threads:	4
+---------------------------------------
+Name:	console-kit-dae
+State:	S (sleeping)
+Tgid:	2697
+Pid:	2697
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	 4197572 kB
+VmSize:	 4197568 kB
+VmLck:	       0 kB
+VmHWM:	    8132 kB
+VmRSS:	    8132 kB
+VmData:	 4149888 kB
+VmStk:	     136 kB
+VmExe:	     136 kB
+VmLib:	    6264 kB
+VmPTE:	     376 kB
+Threads:	65
+---------------------------------------
+Name:	gnome-keyring-d
+State:	S (sleeping)
+Tgid:	2692
+Pid:	2692
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  440132 kB
+VmSize:	  440132 kB
+VmLck:	       0 kB
+VmHWM:	    7092 kB
+VmRSS:	    7092 kB
+VmData:	  385484 kB
+VmStk:	     136 kB
+VmExe:	     872 kB
+VmLib:	    7288 kB
+VmPTE:	     168 kB
+Threads:	7
+---------------------------------------
+Name:	kworker/3:0
+State:	S (sleeping)
+Tgid:	2626
+Pid:	2626
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kauditd
+State:	S (sleeping)
+Tgid:	2615
+Pid:	2615
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:1H
+State:	S (sleeping)
+Tgid:	2608
+Pid:	2608
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:1H
+State:	S (sleeping)
+Tgid:	2605
+Pid:	2605
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:2
+State:	S (sleeping)
+Tgid:	2604
+Pid:	2604
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:1H
+State:	S (sleeping)
+Tgid:	2359
+Pid:	2359
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:1H
+State:	S (sleeping)
+Tgid:	2308
+Pid:	2308
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	2278
+Pid:	2278
+PPid:	1
+TracerPid:	0
+Uid:	111	111	111	111
+Gid:	120	120	120	120
+FDSize:	64
+VmPeak:	   39116 kB
+VmSize:	   39116 kB
+VmLck:	       0 kB
+VmHWM:	     316 kB
+VmRSS:	     316 kB
+VmData:	     248 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      96 kB
+Threads:	1
+---------------------------------------
+Name:	dbus-launch
+State:	S (sleeping)
+Tgid:	2277
+Pid:	2277
+PPid:	1
+TracerPid:	0
+Uid:	111	111	111	111
+Gid:	120	120	120	120
+FDSize:	64
+VmPeak:	   24572 kB
+VmSize:	   24572 kB
+VmLck:	       0 kB
+VmHWM:	    1872 kB
+VmRSS:	    1872 kB
+VmData:	     340 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	    3492 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	dnsmasq
+State:	S (sleeping)
+Tgid:	2229
+Pid:	2229
+PPid:	1
+TracerPid:	0
+Uid:	116	116	116	116
+Gid:	30	30	30	30
+FDSize:	64
+VmPeak:	   28212 kB
+VmSize:	   28208 kB
+VmLck:	       0 kB
+VmHWM:	    2320 kB
+VmRSS:	    2320 kB
+VmData:	     232 kB
+VmStk:	     136 kB
+VmExe:	     280 kB
+VmLib:	    2860 kB
+VmPTE:	      72 kB
+Threads:	1
+---------------------------------------
+Name:	Xorg
+State:	S (sleeping)
+Tgid:	2115
+Pid:	2115
+PPid:	2103
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	 1852360 kB
+VmSize:	  473972 kB
+VmLck:	       0 kB
+VmHWM:	  540632 kB
+VmRSS:	  127772 kB
+VmData:	   59284 kB
+VmStk:	     136 kB
+VmExe:	    2184 kB
+VmLib:	   49816 kB
+VmPTE:	     628 kB
+Threads:	4
+---------------------------------------
+Name:	mdm
+State:	S (sleeping)
+Tgid:	2103
+Pid:	2103
+PPid:	1877
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	1000	120	1000	120
+FDSize:	64
+VmPeak:	  193376 kB
+VmSize:	  193372 kB
+VmLck:	       0 kB
+VmHWM:	    8676 kB
+VmRSS:	    8676 kB
+VmData:	    1068 kB
+VmStk:	     272 kB
+VmExe:	     248 kB
+VmLib:	   20276 kB
+VmPTE:	     368 kB
+Threads:	1
+---------------------------------------
+Name:	nmbd
+State:	S (sleeping)
+Tgid:	2096
+Pid:	2096
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  231452 kB
+VmSize:	  231452 kB
+VmLck:	       0 kB
+VmHWM:	    5612 kB
+VmRSS:	    5612 kB
+VmData:	     652 kB
+VmStk:	     136 kB
+VmExe:	     236 kB
+VmLib:	   18412 kB
+VmPTE:	     432 kB
+Threads:	1
+---------------------------------------
+Name:	dnsmasq
+State:	S (sleeping)
+Tgid:	1932
+Pid:	1932
+PPid:	1425
+TracerPid:	0
+Uid:	65534	65534	65534	65534
+Gid:	30	30	30	30
+FDSize:	64
+VmPeak:	   31156 kB
+VmSize:	   31028 kB
+VmLck:	       0 kB
+VmHWM:	    3368 kB
+VmRSS:	    3324 kB
+VmData:	     228 kB
+VmStk:	     136 kB
+VmExe:	     280 kB
+VmLib:	    2860 kB
+VmPTE:	      84 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1927
+Pid:	1927
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2128 kB
+VmRSS:	    2128 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	mdm
+State:	S (sleeping)
+Tgid:	1877
+Pid:	1877
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  132940 kB
+VmSize:	  132812 kB
+VmLck:	       0 kB
+VmHWM:	    8112 kB
+VmRSS:	    8112 kB
+VmData:	     516 kB
+VmStk:	     136 kB
+VmExe:	     248 kB
+VmLib:	   18012 kB
+VmPTE:	     256 kB
+Threads:	1
+---------------------------------------
+Name:	java
+State:	S (sleeping)
+Tgid:	1799
+Pid:	1799
+PPid:	1
+TracerPid:	0
+Uid:	119	119	119	119
+Gid:	65534	65534	65534	65534
+FDSize:	512
+VmPeak:	11780368 kB
+VmSize:	11775356 kB
+VmLck:	       0 kB
+VmHWM:	  678360 kB
+VmRSS:	  648680 kB
+VmData:	11704884 kB
+VmStk:	     136 kB
+VmExe:	       4 kB
+VmLib:	   17412 kB
+VmPTE:	    1820 kB
+Threads:	58
+---------------------------------------
+Name:	dhclient
+State:	S (sleeping)
+Tgid:	1737
+Pid:	1737
+PPid:	1425
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   10236 kB
+VmSize:	   10232 kB
+VmLck:	       0 kB
+VmHWM:	    5224 kB
+VmRSS:	    5224 kB
+VmData:	    2388 kB
+VmStk:	     136 kB
+VmExe:	    1604 kB
+VmLib:	    1948 kB
+VmPTE:	      40 kB
+Threads:	1
+---------------------------------------
+Name:	smbd
+State:	S (sleeping)
+Tgid:	1484
+Pid:	1484
+PPid:	886
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  316720 kB
+VmSize:	  316720 kB
+VmLck:	       0 kB
+VmHWM:	    7020 kB
+VmRSS:	    7020 kB
+VmData:	     856 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	   29388 kB
+VmPTE:	     580 kB
+Threads:	1
+---------------------------------------
+Name:	smbd
+State:	S (sleeping)
+Tgid:	1481
+Pid:	1481
+PPid:	886
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  308760 kB
+VmSize:	  308760 kB
+VmLck:	       0 kB
+VmHWM:	    5348 kB
+VmRSS:	    5348 kB
+VmData:	     856 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	   29268 kB
+VmPTE:	     568 kB
+Threads:	1
+---------------------------------------
+Name:	libvirtd
+State:	S (sleeping)
+Tgid:	1468
+Pid:	1468
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  442596 kB
+VmSize:	  377320 kB
+VmLck:	       0 kB
+VmHWM:	   20080 kB
+VmRSS:	   20068 kB
+VmData:	  165152 kB
+VmStk:	     136 kB
+VmExe:	     520 kB
+VmLib:	   30156 kB
+VmPTE:	     468 kB
+Threads:	11
+---------------------------------------
+Name:	cron
+State:	S (sleeping)
+Tgid:	1459
+Pid:	1459
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   23788 kB
+VmSize:	   23656 kB
+VmLck:	       0 kB
+VmHWM:	    2284 kB
+VmRSS:	    2284 kB
+VmData:	     268 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    2656 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	cups-browsed
+State:	S (sleeping)
+Tgid:	1452
+Pid:	1452
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   75360 kB
+VmSize:	   75360 kB
+VmLck:	       0 kB
+VmHWM:	    5796 kB
+VmRSS:	    5796 kB
+VmData:	     568 kB
+VmStk:	     136 kB
+VmExe:	      48 kB
+VmLib:	    8708 kB
+VmPTE:	     160 kB
+Threads:	1
+---------------------------------------
+Name:	polkitd
+State:	S (sleeping)
+Tgid:	1438
+Pid:	1438
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  281824 kB
+VmSize:	  281184 kB
+VmLck:	       0 kB
+VmHWM:	    7460 kB
+VmRSS:	    7460 kB
+VmData:	  223052 kB
+VmStk:	     136 kB
+VmExe:	       8 kB
+VmLib:	    6580 kB
+VmPTE:	     160 kB
+Threads:	3
+---------------------------------------
+Name:	kerneloops
+State:	S (sleeping)
+Tgid:	1430
+Pid:	1430
+PPid:	1
+TracerPid:	0
+Uid:	106	106	106	106
+Gid:	4	4	4	4
+FDSize:	64
+VmPeak:	   37148 kB
+VmSize:	   37148 kB
+VmLck:	       0 kB
+VmHWM:	    2488 kB
+VmRSS:	    2488 kB
+VmData:	     260 kB
+VmStk:	     136 kB
+VmExe:	      20 kB
+VmLib:	    5888 kB
+VmPTE:	      92 kB
+Threads:	1
+---------------------------------------
+Name:	NetworkManager
+State:	S (sleeping)
+Tgid:	1425
+Pid:	1425
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  340760 kB
+VmSize:	  340728 kB
+VmLck:	       0 kB
+VmHWM:	   10072 kB
+VmRSS:	   10072 kB
+VmData:	  230228 kB
+VmStk:	     136 kB
+VmExe:	    1072 kB
+VmLib:	   13712 kB
+VmPTE:	     252 kB
+Threads:	4
+---------------------------------------
+Name:	acpid
+State:	S (sleeping)
+Tgid:	1307
+Pid:	1307
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	    4376 kB
+VmSize:	    4372 kB
+VmLck:	       0 kB
+VmHWM:	    1660 kB
+VmRSS:	    1660 kB
+VmData:	     196 kB
+VmStk:	     136 kB
+VmExe:	      44 kB
+VmLib:	    1908 kB
+VmPTE:	      32 kB
+Threads:	1
+---------------------------------------
+Name:	irqbalance
+State:	S (sleeping)
+Tgid:	1306
+Pid:	1306
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   19204 kB
+VmSize:	   19196 kB
+VmLck:	       0 kB
+VmHWM:	    2160 kB
+VmRSS:	    2160 kB
+VmData:	     220 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    4400 kB
+VmPTE:	      56 kB
+Threads:	1
+---------------------------------------
+Name:	sshd
+State:	S (sleeping)
+Tgid:	1297
+Pid:	1297
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   61512 kB
+VmSize:	   61384 kB
+VmLck:	       0 kB
+VmHWM:	    5404 kB
+VmRSS:	    5404 kB
+VmData:	     556 kB
+VmStk:	     136 kB
+VmExe:	     740 kB
+VmLib:	    6332 kB
+VmPTE:	     136 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1255
+Pid:	1255
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2120 kB
+VmRSS:	    2120 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      48 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1252
+Pid:	1252
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2064 kB
+VmRSS:	    2064 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1251
+Pid:	1251
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2124 kB
+VmRSS:	    2124 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1243
+Pid:	1243
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2136 kB
+VmRSS:	    2136 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1241
+Pid:	1241
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2072 kB
+VmRSS:	    2072 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	avahi-daemon
+State:	S (sleeping)
+Tgid:	1179
+Pid:	1179
+PPid:	1177
+TracerPid:	0
+Uid:	107	107	107	107
+Gid:	115	115	115	115
+FDSize:	64
+VmPeak:	   32224 kB
+VmSize:	   32224 kB
+VmLck:	       0 kB
+VmHWM:	     252 kB
+VmRSS:	     252 kB
+VmData:	     228 kB
+VmStk:	     136 kB
+VmExe:	     116 kB
+VmLib:	    2972 kB
+VmPTE:	      80 kB
+Threads:	1
+---------------------------------------
+Name:	avahi-daemon
+State:	S (sleeping)
+Tgid:	1177
+Pid:	1177
+PPid:	1
+TracerPid:	0
+Uid:	107	107	107	107
+Gid:	115	115	115	115
+FDSize:	64
+VmPeak:	   34416 kB
+VmSize:	   32348 kB
+VmLck:	       0 kB
+VmHWM:	    3012 kB
+VmRSS:	    3012 kB
+VmData:	     352 kB
+VmStk:	     136 kB
+VmExe:	     116 kB
+VmLib:	    2972 kB
+VmPTE:	      84 kB
+Threads:	1
+---------------------------------------
+Name:	zfs-fuse
+State:	S (sleeping)
+Tgid:	1057
+Pid:	1057
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  482356 kB
+VmSize:	  353316 kB
+VmLck:	       0 kB
+VmHWM:	   75268 kB
+VmRSS:	   75268 kB
+VmData:	  327084 kB
+VmStk:	     136 kB
+VmExe:	    1124 kB
+VmLib:	    4404 kB
+VmPTE:	     456 kB
+Threads:	54
+---------------------------------------
+Name:	systemd-logind
+State:	S (sleeping)
+Tgid:	1055
+Pid:	1055
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   43580 kB
+VmSize:	   43452 kB
+VmLck:	       0 kB
+VmHWM:	    3232 kB
+VmRSS:	    3208 kB
+VmData:	     780 kB
+VmStk:	     136 kB
+VmExe:	     240 kB
+VmLib:	    3260 kB
+VmPTE:	     104 kB
+Threads:	1
+---------------------------------------
+Name:	krfcommd
+State:	S (sleeping)
+Tgid:	1047
+Pid:	1047
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	bluetoothd
+State:	S (sleeping)
+Tgid:	1036
+Pid:	1036
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   19300 kB
+VmSize:	   19300 kB
+VmLck:	       0 kB
+VmHWM:	    2804 kB
+VmRSS:	    2804 kB
+VmData:	     220 kB
+VmStk:	     136 kB
+VmExe:	     860 kB
+VmLib:	    3612 kB
+VmPTE:	      56 kB
+Threads:	1
+---------------------------------------
+Name:	rsyslogd
+State:	S (sleeping)
+Tgid:	1031
+Pid:	1031
+PPid:	1
+TracerPid:	0
+Uid:	101	101	101	101
+Gid:	104	104	104	104
+FDSize:	64
+VmPeak:	  255848 kB
+VmSize:	  255844 kB
+VmLck:	       0 kB
+VmHWM:	    3180 kB
+VmRSS:	    3180 kB
+VmData:	  221540 kB
+VmStk:	     136 kB
+VmExe:	     476 kB
+VmLib:	    2828 kB
+VmPTE:	     104 kB
+Threads:	4
+---------------------------------------
+Name:	ModemManager
+State:	S (sleeping)
+Tgid:	1016
+Pid:	1016
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  334456 kB
+VmSize:	  334452 kB
+VmLck:	       0 kB
+VmHWM:	    7416 kB
+VmRSS:	    7416 kB
+VmData:	  221848 kB
+VmStk:	     136 kB
+VmExe:	     892 kB
+VmLib:	    8808 kB
+VmPTE:	     268 kB
+Threads:	3
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	1003
+Pid:	1003
+PPid:	1
+TracerPid:	0
+Uid:	102	102	102	102
+Gid:	108	108	108	108
+FDSize:	64
+VmPeak:	   39976 kB
+VmSize:	   39972 kB
+VmLck:	       0 kB
+VmHWM:	    3220 kB
+VmRSS:	    3220 kB
+VmData:	    1104 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      96 kB
+Threads:	1
+---------------------------------------
+Name:	upstart-file-br
+State:	S (sleeping)
+Tgid:	997
+Pid:	997
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15280 kB
+VmSize:	   15280 kB
+VmLck:	       0 kB
+VmHWM:	    1872 kB
+VmRSS:	    1872 kB
+VmData:	     224 kB
+VmStk:	     136 kB
+VmExe:	     132 kB
+VmLib:	    2432 kB
+VmPTE:	      48 kB
+Threads:	1
+---------------------------------------
+Name:	rpc.idmapd
+State:	S (sleeping)
+Tgid:	971
+Pid:	971
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   23480 kB
+VmSize:	   23480 kB
+VmLck:	       0 kB
+VmHWM:	     204 kB
+VmRSS:	     204 kB
+VmData:	     224 kB
+VmStk:	     136 kB
+VmExe:	      20 kB
+VmLib:	    2532 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	nfsiod
+State:	S (sleeping)
+Tgid:	901
+Pid:	901
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rpciod
+State:	S (sleeping)
+Tgid:	889
+Pid:	889
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	smbd
+State:	S (sleeping)
+Tgid:	886
+Pid:	886
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  317220 kB
+VmSize:	  316720 kB
+VmLck:	       0 kB
+VmHWM:	   15968 kB
+VmRSS:	   15968 kB
+VmData:	     856 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	   29388 kB
+VmPTE:	     608 kB
+Threads:	1
+---------------------------------------
+Name:	ext4-rsv-conver
+State:	S (sleeping)
+Tgid:	867
+Pid:	867
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	jbd2/sda3-8
+State:	D (disk sleep)
+Tgid:	866
+Pid:	866
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ext4-rsv-conver
+State:	S (sleeping)
+Tgid:	847
+Pid:	847
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:1H
+State:	S (sleeping)
+Tgid:	808
+Pid:	808
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/3:1H
+State:	S (sleeping)
+Tgid:	795
+Pid:	795
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rpc.statd
+State:	S (sleeping)
+Tgid:	788
+Pid:	788
+PPid:	1
+TracerPid:	0
+Uid:	118	118	118	118
+Gid:	65534	65534	65534	65534
+FDSize:	64
+VmPeak:	   21552 kB
+VmSize:	   21544 kB
+VmLck:	       0 kB
+VmHWM:	    2568 kB
+VmRSS:	    2564 kB
+VmData:	     448 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	    2384 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	rpcbind
+State:	S (sleeping)
+Tgid:	757
+Pid:	757
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   23552 kB
+VmSize:	   23424 kB
+VmLck:	       0 kB
+VmHWM:	    2296 kB
+VmRSS:	    2296 kB
+VmData:	     236 kB
+VmStk:	     136 kB
+VmExe:	      44 kB
+VmLib:	    2448 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	hd-audio0
+State:	S (sleeping)
+Tgid:	693
+Pid:	693
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	upstart-socket-
+State:	S (sleeping)
+Tgid:	691
+Pid:	691
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15264 kB
+VmSize:	   15264 kB
+VmLck:	       0 kB
+VmHWM:	    1816 kB
+VmRSS:	    1816 kB
+VmData:	     216 kB
+VmStk:	     136 kB
+VmExe:	     124 kB
+VmLib:	    2432 kB
+VmPTE:	      48 kB
+Threads:	1
+---------------------------------------
+Name:	kmpath_handlerd
+State:	S (sleeping)
+Tgid:	628
+Pid:	628
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kmpathd
+State:	S (sleeping)
+Tgid:	627
+Pid:	627
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kvm-irqfd-clean
+State:	S (sleeping)
+Tgid:	615
+Pid:	615
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:1H
+State:	S (sleeping)
+Tgid:	584
+Pid:	584
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	hd-audio1
+State:	S (sleeping)
+Tgid:	571
+Pid:	571
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	hd-audio2
+State:	S (sleeping)
+Tgid:	569
+Pid:	569
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:1H
+State:	S (sleeping)
+Tgid:	564
+Pid:	564
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	irq/34-mei_me
+State:	S (sleeping)
+Tgid:	556
+Pid:	556
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	systemd-udevd
+State:	S (sleeping)
+Tgid:	482
+Pid:	482
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   52464 kB
+VmSize:	   52196 kB
+VmLck:	       0 kB
+VmHWM:	    4188 kB
+VmRSS:	    3992 kB
+VmData:	    1596 kB
+VmStk:	     136 kB
+VmExe:	     200 kB
+VmLib:	    3412 kB
+VmPTE:	     108 kB
+Threads:	1
+---------------------------------------
+Name:	upstart-udev-br
+State:	S (sleeping)
+Tgid:	477
+Pid:	477
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   19612 kB
+VmSize:	   19612 kB
+VmLck:	       0 kB
+VmHWM:	    2088 kB
+VmRSS:	    2088 kB
+VmData:	     352 kB
+VmStk:	     136 kB
+VmExe:	      68 kB
+VmLib:	    2596 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	ext4-rsv-conver
+State:	S (sleeping)
+Tgid:	301
+Pid:	301
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	jbd2/sda2-8
+State:	S (sleeping)
+Tgid:	300
+Pid:	300
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	bioset
+State:	S (sleeping)
+Tgid:	288
+Pid:	288
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:1
+State:	S (sleeping)
+Tgid:	237
+Pid:	237
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ttm_swap
+State:	S (sleeping)
+Tgid:	234
+Pid:	234
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:2
+State:	S (sleeping)
+Tgid:	225
+Pid:	225
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/3:3
+State:	S (sleeping)
+Tgid:	224
+Pid:	224
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:1
+State:	S (sleeping)
+Tgid:	222
+Pid:	222
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:1
+State:	S (sleeping)
+Tgid:	220
+Pid:	220
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:1
+State:	S (sleeping)
+Tgid:	219
+Pid:	219
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:1
+State:	S (sleeping)
+Tgid:	218
+Pid:	218
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_5
+State:	S (sleeping)
+Tgid:	189
+Pid:	189
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_5
+State:	S (sleeping)
+Tgid:	188
+Pid:	188
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_4
+State:	S (sleeping)
+Tgid:	187
+Pid:	187
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_4
+State:	S (sleeping)
+Tgid:	186
+Pid:	186
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_3
+State:	S (sleeping)
+Tgid:	185
+Pid:	185
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_3
+State:	S (sleeping)
+Tgid:	184
+Pid:	184
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_2
+State:	S (sleeping)
+Tgid:	183
+Pid:	183
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_2
+State:	S (sleeping)
+Tgid:	182
+Pid:	182
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_1
+State:	S (sleeping)
+Tgid:	181
+Pid:	181
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_1
+State:	S (sleeping)
+Tgid:	180
+Pid:	180
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_0
+State:	S (sleeping)
+Tgid:	179
+Pid:	179
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_0
+State:	S (sleeping)
+Tgid:	178
+Pid:	178
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kpsmoused
+State:	S (sleeping)
+Tgid:	177
+Pid:	177
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:1
+State:	S (sleeping)
+Tgid:	127
+Pid:	127
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	charger_manager
+State:	S (sleeping)
+Tgid:	120
+Pid:	120
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	deferwq
+State:	S (sleeping)
+Tgid:	119
+Pid:	119
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ipv6_addrconf
+State:	S (sleeping)
+Tgid:	99
+Pid:	99
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	acpi_thermal_pm
+State:	S (sleeping)
+Tgid:	95
+Pid:	95
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kthrotld
+State:	S (sleeping)
+Tgid:	94
+Pid:	94
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ecryptfs-kthrea
+State:	S (sleeping)
+Tgid:	82
+Pid:	82
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	fsnotify_mark
+State:	S (sleeping)
+Tgid:	81
+Pid:	81
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kswapd0
+State:	S (sleeping)
+Tgid:	80
+Pid:	80
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	devfreq_wq
+State:	S (sleeping)
+Tgid:	76
+Pid:	76
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	md
+State:	S (sleeping)
+Tgid:	75
+Pid:	75
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ata_sff
+State:	S (sleeping)
+Tgid:	74
+Pid:	74
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kblockd
+State:	S (sleeping)
+Tgid:	73
+Pid:	73
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	bioset
+State:	S (sleeping)
+Tgid:	72
+Pid:	72
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kintegrityd
+State:	S (sleeping)
+Tgid:	71
+Pid:	71
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	crypto
+State:	S (sleeping)
+Tgid:	70
+Pid:	70
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	khugepaged
+State:	S (sleeping)
+Tgid:	69
+Pid:	69
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksmd
+State:	S (sleeping)
+Tgid:	68
+Pid:	68
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	writeback
+State:	S (sleeping)
+Tgid:	67
+Pid:	67
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	khungtaskd
+State:	S (sleeping)
+Tgid:	66
+Pid:	66
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	perf
+State:	S (sleeping)
+Tgid:	65
+Pid:	65
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	netns
+State:	S (sleeping)
+Tgid:	64
+Pid:	64
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kdevtmpfs
+State:	S (sleeping)
+Tgid:	63
+Pid:	63
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	khelper
+State:	S (sleeping)
+Tgid:	62
+Pid:	62
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/7
+State:	S (sleeping)
+Tgid:	61
+Pid:	61
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/7
+State:	S (sleeping)
+Tgid:	60
+Pid:	60
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:0H
+State:	S (sleeping)
+Tgid:	59
+Pid:	59
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:0
+State:	S (sleeping)
+Tgid:	58
+Pid:	58
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/7
+State:	S (sleeping)
+Tgid:	57
+Pid:	57
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/7
+State:	S (sleeping)
+Tgid:	56
+Pid:	56
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/7
+State:	S (sleeping)
+Tgid:	55
+Pid:	55
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/6
+State:	S (sleeping)
+Tgid:	54
+Pid:	54
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/6
+State:	S (sleeping)
+Tgid:	53
+Pid:	53
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:0H
+State:	S (sleeping)
+Tgid:	52
+Pid:	52
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/6
+State:	S (sleeping)
+Tgid:	50
+Pid:	50
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/6
+State:	S (sleeping)
+Tgid:	49
+Pid:	49
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/6
+State:	S (sleeping)
+Tgid:	48
+Pid:	48
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/5
+State:	S (sleeping)
+Tgid:	47
+Pid:	47
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/5
+State:	S (sleeping)
+Tgid:	46
+Pid:	46
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:0H
+State:	S (sleeping)
+Tgid:	45
+Pid:	45
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:0
+State:	S (sleeping)
+Tgid:	44
+Pid:	44
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/5
+State:	S (sleeping)
+Tgid:	43
+Pid:	43
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/5
+State:	S (sleeping)
+Tgid:	42
+Pid:	42
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/5
+State:	S (sleeping)
+Tgid:	41
+Pid:	41
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/4
+State:	S (sleeping)
+Tgid:	40
+Pid:	40
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/4
+State:	S (sleeping)
+Tgid:	39
+Pid:	39
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:0H
+State:	S (sleeping)
+Tgid:	38
+Pid:	38
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:0
+State:	S (sleeping)
+Tgid:	37
+Pid:	37
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/4
+State:	S (sleeping)
+Tgid:	36
+Pid:	36
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/4
+State:	S (sleeping)
+Tgid:	35
+Pid:	35
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/4
+State:	S (sleeping)
+Tgid:	34
+Pid:	34
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/3
+State:	S (sleeping)
+Tgid:	33
+Pid:	33
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/3
+State:	S (sleeping)
+Tgid:	32
+Pid:	32
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/3:0H
+State:	S (sleeping)
+Tgid:	31
+Pid:	31
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/3
+State:	S (sleeping)
+Tgid:	29
+Pid:	29
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/3
+State:	S (sleeping)
+Tgid:	28
+Pid:	28
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/3
+State:	S (sleeping)
+Tgid:	27
+Pid:	27
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/2
+State:	S (sleeping)
+Tgid:	26
+Pid:	26
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/2
+State:	S (sleeping)
+Tgid:	25
+Pid:	25
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:0H
+State:	S (sleeping)
+Tgid:	24
+Pid:	24
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:0
+State:	S (sleeping)
+Tgid:	23
+Pid:	23
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/2
+State:	S (sleeping)
+Tgid:	22
+Pid:	22
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/2
+State:	S (sleeping)
+Tgid:	21
+Pid:	21
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/2
+State:	S (sleeping)
+Tgid:	20
+Pid:	20
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/1
+State:	S (sleeping)
+Tgid:	19
+Pid:	19
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/1
+State:	S (sleeping)
+Tgid:	18
+Pid:	18
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:0H
+State:	S (sleeping)
+Tgid:	17
+Pid:	17
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/1
+State:	S (sleeping)
+Tgid:	15
+Pid:	15
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/1
+State:	S (sleeping)
+Tgid:	14
+Pid:	14
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/1
+State:	S (sleeping)
+Tgid:	13
+Pid:	13
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/0
+State:	S (sleeping)
+Tgid:	12
+Pid:	12
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/0
+State:	S (sleeping)
+Tgid:	11
+Pid:	11
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/0
+State:	S (sleeping)
+Tgid:	10
+Pid:	10
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/0
+State:	S (sleeping)
+Tgid:	9
+Pid:	9
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcu_bh
+State:	S (sleeping)
+Tgid:	8
+Pid:	8
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcu_sched
+State:	S (sleeping)
+Tgid:	7
+Pid:	7
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:0H
+State:	S (sleeping)
+Tgid:	5
+Pid:	5
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/0
+State:	S (sleeping)
+Tgid:	3
+Pid:	3
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kthreadd
+State:	S (sleeping)
+Tgid:	2
+Pid:	2
+PPid:	0
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	init
+State:	S (sleeping)
+Tgid:	1
+Pid:	1
+PPid:	0
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	128
+VmPeak:	   34048 kB
+VmSize:	   34044 kB
+VmLck:	       0 kB
+VmHWM:	    4552 kB
+VmRSS:	    4552 kB
+VmData:	    1820 kB
+VmStk:	     136 kB
+VmExe:	     248 kB
+VmLib:	    3068 kB
+VmPTE:	      88 kB
+Threads:	1
+---------------------------------------
+Name:	kworker/u16:2
+State:	S (sleeping)
+Tgid:	12321
+Pid:	12321
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/u16:0
+State:	S (sleeping)
+Tgid:	11953
+Pid:	11953
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:2
+State:	S (sleeping)
+Tgid:	11340
+Pid:	11340
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:1
+State:	S (sleeping)
+Tgid:	10847
+Pid:	10847
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	cupsd
+State:	S (sleeping)
+Tgid:	10690
+Pid:	10690
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   76864 kB
+VmSize:	   76860 kB
+VmLck:	       0 kB
+VmHWM:	    6632 kB
+VmRSS:	    6632 kB
+VmData:	     792 kB
+VmStk:	     136 kB
+VmExe:	     388 kB
+VmLib:	    7588 kB
+VmPTE:	     164 kB
+Threads:	1
+---------------------------------------
+Name:	gedit
+State:	T (stopped)
+Tgid:	9822
+Pid:	9822
+PPid:	5054
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	  706244 kB
+VmSize:	  702148 kB
+VmLck:	       0 kB
+VmHWM:	   57012 kB
+VmRSS:	   57012 kB
+VmData:	  314836 kB
+VmStk:	     212 kB
+VmExe:	     656 kB
+VmLib:	   27124 kB
+VmPTE:	     712 kB
+Threads:	4
+---------------------------------------
+Name:	vim
+State:	S (sleeping)
+Tgid:	5670
+Pid:	5670
+PPid:	4594
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	   50324 kB
+VmSize:	   50148 kB
+VmLck:	       0 kB
+VmHWM:	    8068 kB
+VmRSS:	    8068 kB
+VmData:	    2728 kB
+VmStk:	     136 kB
+VmExe:	    2052 kB
+VmLib:	    6892 kB
+VmPTE:	     104 kB
+Threads:	1
+---------------------------------------
+Name:	bash
+State:	S (sleeping)
+Tgid:	5054
+Pid:	5054
+PPid:	4587
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	   23396 kB
+VmSize:	   23332 kB
+VmLck:	       0 kB
+VmHWM:	    6296 kB
+VmRSS:	    6276 kB
+VmData:	    2636 kB
+VmStk:	     136 kB
+VmExe:	     956 kB
+VmLib:	    2280 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	bash
+State:	S (sleeping)
+Tgid:	4594
+Pid:	4594
+PPid:	4587
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	   23376 kB
+VmSize:	   23312 kB
+VmLck:	       0 kB
+VmHWM:	    6288 kB
+VmRSS:	    6272 kB
+VmData:	    2616 kB
+VmStk:	     136 kB
+VmExe:	     956 kB
+VmLib:	    2280 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	gnome-pty-helpe
+State:	S (sleeping)
+Tgid:	4593
+Pid:	4593
+PPid:	4587
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	43	43	43
+FDSize:	64
+VmPeak:	   14952 kB
+VmSize:	   14824 kB
+VmLck:	       0 kB
+VmHWM:	    1864 kB
+VmRSS:	    1864 kB
+VmData:	     200 kB
+VmStk:	     136 kB
+VmExe:	      12 kB
+VmLib:	    2128 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	gnome-terminal
+State:	R (running)
+Tgid:	4587
+Pid:	4587
+PPid:	3255
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  679408 kB
+VmSize:	  623592 kB
+VmLck:	       0 kB
+VmHWM:	   39700 kB
+VmRSS:	   39700 kB
+VmData:	  307240 kB
+VmStk:	     136 kB
+VmExe:	     280 kB
+VmLib:	   22868 kB
+VmPTE:	     556 kB
+Threads:	4
+---------------------------------------
+Name:	firefox
+State:	R (running)
+Tgid:	3410
+Pid:	3410
+PPid:	3255
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+VmPeak:	 1967164 kB
+VmSize:	 1917300 kB
+VmLck:	       0 kB
+VmHWM:	  990236 kB
+VmRSS:	  922232 kB
+VmData:	 1246968 kB
+VmStk:	     144 kB
+VmExe:	     112 kB
+VmLib:	  107488 kB
+VmPTE:	    2848 kB
+Threads:	59
+---------------------------------------
+Name:	applet.py
+State:	S (sleeping)
+Tgid:	3404
+Pid:	3404
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  269016 kB
+VmSize:	  216532 kB
+VmLck:	       0 kB
+VmHWM:	   23480 kB
+VmRSS:	   23480 kB
+VmData:	   84048 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   14268 kB
+VmPTE:	     288 kB
+Threads:	2
+---------------------------------------
+Name:	mintUpdate
+State:	S (sleeping)
+Tgid:	3368
+Pid:	3368
+PPid:	3367
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  635496 kB
+VmSize:	  634468 kB
+VmLck:	       0 kB
+VmHWM:	   44268 kB
+VmRSS:	   44208 kB
+VmData:	  234832 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   33188 kB
+VmPTE:	     592 kB
+Threads:	3
+---------------------------------------
+Name:	sh
+State:	S (sleeping)
+Tgid:	3367
+Pid:	3367
+PPid:	3363
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	    4448 kB
+VmSize:	    4448 kB
+VmLck:	       0 kB
+VmHWM:	     788 kB
+VmRSS:	     788 kB
+VmData:	     200 kB
+VmStk:	     136 kB
+VmExe:	     112 kB
+VmLib:	    1908 kB
+VmPTE:	      24 kB
+Threads:	1
+---------------------------------------
+Name:	cinnamon-screen
+State:	S (sleeping)
+Tgid:	3364
+Pid:	3364
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  481736 kB
+VmSize:	  463364 kB
+VmLck:	       0 kB
+VmHWM:	   58384 kB
+VmRSS:	   40284 kB
+VmData:	  235124 kB
+VmStk:	     136 kB
+VmExe:	     132 kB
+VmLib:	   20460 kB
+VmPTE:	     408 kB
+Threads:	4
+---------------------------------------
+Name:	mintupdate-laun
+State:	S (sleeping)
+Tgid:	3363
+Pid:	3363
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   24280 kB
+VmSize:	   24240 kB
+VmLck:	       0 kB
+VmHWM:	    7240 kB
+VmRSS:	    7236 kB
+VmData:	    2472 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	    3168 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	accounts-daemon
+State:	S (sleeping)
+Tgid:	3338
+Pid:	3338
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  287484 kB
+VmSize:	  287356 kB
+VmLck:	       0 kB
+VmHWM:	    6456 kB
+VmRSS:	    6456 kB
+VmData:	  221612 kB
+VmStk:	     136 kB
+VmExe:	     152 kB
+VmLib:	    7816 kB
+VmPTE:	     172 kB
+Threads:	3
+---------------------------------------
+Name:	dconf-service
+State:	S (sleeping)
+Tgid:	3333
+Pid:	3333
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  243716 kB
+VmSize:	  178312 kB
+VmLck:	       0 kB
+VmHWM:	    4760 kB
+VmRSS:	    4760 kB
+VmData:	  147980 kB
+VmStk:	     136 kB
+VmExe:	      72 kB
+VmLib:	    5440 kB
+VmPTE:	      92 kB
+Threads:	3
+---------------------------------------
+Name:	gvfsd-trash
+State:	S (sleeping)
+Tgid:	3312
+Pid:	3312
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  355228 kB
+VmSize:	  355224 kB
+VmLck:	       0 kB
+VmHWM:	    8456 kB
+VmRSS:	    8456 kB
+VmData:	  295460 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    7376 kB
+VmPTE:	     168 kB
+Threads:	3
+---------------------------------------
+Name:	gvfsd-metadata
+State:	S (sleeping)
+Tgid:	3306
+Pid:	3306
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  185752 kB
+VmSize:	  120436 kB
+VmLck:	       0 kB
+VmHWM:	    5576 kB
+VmRSS:	    5500 kB
+VmData:	   74272 kB
+VmStk:	     136 kB
+VmExe:	      68 kB
+VmLib:	    6028 kB
+VmPTE:	     116 kB
+Threads:	2
+---------------------------------------
+Name:	gconfd-2
+State:	S (sleeping)
+Tgid:	3297
+Pid:	3297
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   53308 kB
+VmSize:	   53276 kB
+VmLck:	       0 kB
+VmHWM:	    5392 kB
+VmRSS:	    5392 kB
+VmData:	     752 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    6340 kB
+VmPTE:	     120 kB
+Threads:	1
+---------------------------------------
+Name:	cinnamon-killer
+State:	S (sleeping)
+Tgid:	3268
+Pid:	3268
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  382852 kB
+VmSize:	  317452 kB
+VmLck:	       0 kB
+VmHWM:	   26400 kB
+VmRSS:	   26400 kB
+VmData:	  155492 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   20220 kB
+VmPTE:	     344 kB
+Threads:	3
+---------------------------------------
+Name:	nm-applet
+State:	S (sleeping)
+Tgid:	3267
+Pid:	3267
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  693248 kB
+VmSize:	  692688 kB
+VmLck:	       0 kB
+VmHWM:	   25700 kB
+VmRSS:	   25700 kB
+VmData:	  224804 kB
+VmStk:	     136 kB
+VmExe:	     300 kB
+VmLib:	   25576 kB
+VmPTE:	     476 kB
+Threads:	3
+---------------------------------------
+Name:	nemo
+State:	S (sleeping)
+Tgid:	3263
+Pid:	3263
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	 1335736 kB
+VmSize:	 1286672 kB
+VmLck:	       0 kB
+VmHWM:	   83848 kB
+VmRSS:	   83848 kB
+VmData:	  924984 kB
+VmStk:	     136 kB
+VmExe:	    1796 kB
+VmLib:	   30484 kB
+VmPTE:	     824 kB
+Threads:	4
+---------------------------------------
+Name:	polkit-gnome-au
+State:	S (sleeping)
+Tgid:	3261
+Pid:	3261
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  290492 kB
+VmSize:	  226100 kB
+VmLck:	       0 kB
+VmHWM:	   15440 kB
+VmRSS:	   15440 kB
+VmData:	   75728 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	   19784 kB
+VmPTE:	     308 kB
+Threads:	2
+---------------------------------------
+Name:	cinnamon
+State:	S (sleeping)
+Tgid:	3255
+Pid:	3255
+PPid:	3253
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	 1793132 kB
+VmSize:	 1774728 kB
+VmLck:	       0 kB
+VmHWM:	  156460 kB
+VmRSS:	  155096 kB
+VmData:	 1139632 kB
+VmStk:	     136 kB
+VmExe:	      12 kB
+VmLib:	   84552 kB
+VmPTE:	    1232 kB
+Threads:	6
+---------------------------------------
+Name:	cinnamon-launch
+State:	S (sleeping)
+Tgid:	3253
+Pid:	3253
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  303584 kB
+VmSize:	  239192 kB
+VmLck:	       0 kB
+VmHWM:	   27932 kB
+VmRSS:	   27932 kB
+VmData:	   81624 kB
+VmStk:	     136 kB
+VmExe:	    2800 kB
+VmLib:	   20168 kB
+VmPTE:	     340 kB
+Threads:	2
+---------------------------------------
+Name:	csd-printer
+State:	S (sleeping)
+Tgid:	3245
+Pid:	3245
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  387004 kB
+VmSize:	  387004 kB
+VmLck:	       0 kB
+VmHWM:	    8976 kB
+VmRSS:	    8976 kB
+VmData:	  221716 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	   22284 kB
+VmPTE:	     348 kB
+Threads:	2
+---------------------------------------
+Name:	colord
+State:	S (sleeping)
+Tgid:	3231
+Pid:	3231
+PPid:	1
+TracerPid:	0
+Uid:	109	109	109	109
+Gid:	119	119	119	119
+FDSize:	64
+VmPeak:	  301540 kB
+VmSize:	  301532 kB
+VmLck:	       0 kB
+VmHWM:	    8452 kB
+VmRSS:	    8452 kB
+VmData:	  222240 kB
+VmStk:	     136 kB
+VmExe:	     220 kB
+VmLib:	    8884 kB
+VmPTE:	     192 kB
+Threads:	3
+---------------------------------------
+Name:	gvfs-afc-volume
+State:	S (sleeping)
+Tgid:	3226
+Pid:	3226
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  281772 kB
+VmSize:	  281772 kB
+VmLck:	       0 kB
+VmHWM:	    6040 kB
+VmRSS:	    6040 kB
+VmData:	  221612 kB
+VmStk:	     136 kB
+VmExe:	      72 kB
+VmLib:	    9736 kB
+VmPTE:	     152 kB
+Threads:	3
+---------------------------------------
+Name:	gvfs-mtp-volume
+State:	S (sleeping)
+Tgid:	3222
+Pid:	3222
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  261620 kB
+VmSize:	  196084 kB
+VmLck:	       0 kB
+VmHWM:	    5372 kB
+VmRSS:	    5372 kB
+VmData:	  147868 kB
+VmStk:	     136 kB
+VmExe:	      72 kB
+VmLib:	    6064 kB
+VmPTE:	     128 kB
+Threads:	2
+---------------------------------------
+Name:	gvfs-gphoto2-vo
+State:	S (sleeping)
+Tgid:	3218
+Pid:	3218
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  273784 kB
+VmSize:	  208248 kB
+VmLck:	       0 kB
+VmHWM:	    5936 kB
+VmRSS:	    5936 kB
+VmData:	  148260 kB
+VmStk:	     136 kB
+VmExe:	      76 kB
+VmLib:	    7500 kB
+VmPTE:	     148 kB
+Threads:	2
+---------------------------------------
+Name:	udisksd
+State:	S (sleeping)
+Tgid:	3209
+Pid:	3209
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  436520 kB
+VmSize:	  371456 kB
+VmLck:	       0 kB
+VmHWM:	    8008 kB
+VmRSS:	    8000 kB
+VmData:	  304452 kB
+VmStk:	     136 kB
+VmExe:	     320 kB
+VmLib:	    6896 kB
+VmPTE:	     188 kB
+Threads:	5
+---------------------------------------
+Name:	gvfs-udisks2-vo
+State:	S (sleeping)
+Tgid:	3206
+Pid:	3206
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  294656 kB
+VmSize:	  294652 kB
+VmLck:	       0 kB
+VmHWM:	    8204 kB
+VmRSS:	    8204 kB
+VmData:	  221884 kB
+VmStk:	     136 kB
+VmExe:	     144 kB
+VmLib:	    7916 kB
+VmPTE:	     184 kB
+Threads:	3
+---------------------------------------
+Name:	gvfsd-fuse
+State:	S (sleeping)
+Tgid:	3121
+Pid:	3121
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  345668 kB
+VmSize:	  345668 kB
+VmLck:	       0 kB
+VmHWM:	    7812 kB
+VmRSS:	    7724 kB
+VmData:	  295636 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    6584 kB
+VmPTE:	     152 kB
+Threads:	5
+---------------------------------------
+Name:	gvfsd
+State:	S (sleeping)
+Tgid:	3105
+Pid:	3105
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  257988 kB
+VmSize:	  192452 kB
+VmLck:	       0 kB
+VmHWM:	    5396 kB
+VmRSS:	    5396 kB
+VmData:	  147856 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	    6600 kB
+VmPTE:	     120 kB
+Threads:	2
+---------------------------------------
+Name:	upowerd
+State:	S (sleeping)
+Tgid:	3006
+Pid:	3006
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  296536 kB
+VmSize:	  239368 kB
+VmLck:	       0 kB
+VmHWM:	    9244 kB
+VmRSS:	    7320 kB
+VmData:	  156240 kB
+VmStk:	     136 kB
+VmExe:	     152 kB
+VmLib:	   10808 kB
+VmPTE:	     192 kB
+Threads:	3
+---------------------------------------
+Name:	rtkit-daemon
+State:	S (sleeping)
+Tgid:	3002
+Pid:	3002
+PPid:	1
+TracerPid:	0
+Uid:	112	112	112	112
+Gid:	122	122	122	122
+FDSize:	64
+VmPeak:	  299988 kB
+VmSize:	  168916 kB
+VmLck:	       0 kB
+VmHWM:	    2548 kB
+VmRSS:	    2500 kB
+VmData:	  147684 kB
+VmStk:	     136 kB
+VmExe:	      56 kB
+VmLib:	    2536 kB
+VmPTE:	      76 kB
+Threads:	3
+---------------------------------------
+Name:	pulseaudio
+State:	S (sleeping)
+Tgid:	3000
+Pid:	3000
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  582920 kB
+VmSize:	  517308 kB
+VmLck:	       0 kB
+VmHWM:	   10092 kB
+VmRSS:	   10084 kB
+VmData:	  296644 kB
+VmStk:	     136 kB
+VmExe:	      80 kB
+VmLib:	   14228 kB
+VmPTE:	     364 kB
+Threads:	5
+---------------------------------------
+Name:	cinnamon-settin
+State:	S (sleeping)
+Tgid:	2987
+Pid:	2987
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  907568 kB
+VmSize:	  907560 kB
+VmLck:	       0 kB
+VmHWM:	   55408 kB
+VmRSS:	   38664 kB
+VmData:	  373424 kB
+VmStk:	     136 kB
+VmExe:	      32 kB
+VmLib:	   34408 kB
+VmPTE:	     756 kB
+Threads:	5
+---------------------------------------
+Name:	at-spi2-registr
+State:	S (sleeping)
+Tgid:	2978
+Pid:	2978
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  190456 kB
+VmSize:	  124920 kB
+VmLck:	       0 kB
+VmHWM:	    4860 kB
+VmRSS:	    4860 kB
+VmData:	   74140 kB
+VmStk:	     136 kB
+VmExe:	      80 kB
+VmLib:	    7348 kB
+VmPTE:	     120 kB
+Threads:	2
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	2975
+Pid:	2975
+PPid:	2971
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   39252 kB
+VmSize:	   39248 kB
+VmLck:	       0 kB
+VmHWM:	    3380 kB
+VmRSS:	    3380 kB
+VmData:	     380 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      96 kB
+Threads:	1
+---------------------------------------
+Name:	at-spi-bus-laun
+State:	S (sleeping)
+Tgid:	2971
+Pid:	2971
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  402944 kB
+VmSize:	  337524 kB
+VmLck:	       0 kB
+VmHWM:	    5568 kB
+VmRSS:	    5568 kB
+VmData:	  295304 kB
+VmStk:	     136 kB
+VmExe:	      16 kB
+VmLib:	    6844 kB
+VmPTE:	     128 kB
+Threads:	4
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	2898
+Pid:	2898
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   39704 kB
+VmSize:	   39700 kB
+VmLck:	       0 kB
+VmHWM:	    3012 kB
+VmRSS:	    3012 kB
+VmData:	     832 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      88 kB
+Threads:	1
+---------------------------------------
+Name:	dbus-launch
+State:	S (sleeping)
+Tgid:	2897
+Pid:	2897
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	   24572 kB
+VmSize:	   24572 kB
+VmLck:	       0 kB
+VmHWM:	    1916 kB
+VmRSS:	    1916 kB
+VmData:	     340 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	    3492 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	ssh-agent
+State:	S (sleeping)
+Tgid:	2894
+Pid:	2894
+PPid:	2768
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	113	1000
+FDSize:	64
+VmPeak:	   10628 kB
+VmSize:	   10628 kB
+VmLck:	       0 kB
+VmHWM:	     312 kB
+VmRSS:	     312 kB
+VmData:	     220 kB
+VmStk:	     136 kB
+VmExe:	     272 kB
+VmLib:	    3660 kB
+VmPTE:	      32 kB
+Threads:	1
+---------------------------------------
+Name:	cinnamon-sessio
+State:	S (sleeping)
+Tgid:	2768
+Pid:	2768
+PPid:	2103
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  397716 kB
+VmSize:	  397652 kB
+VmLck:	       0 kB
+VmHWM:	   16796 kB
+VmRSS:	   16796 kB
+VmData:	  223560 kB
+VmStk:	     136 kB
+VmExe:	     240 kB
+VmLib:	   20464 kB
+VmPTE:	     380 kB
+Threads:	4
+---------------------------------------
+Name:	console-kit-dae
+State:	S (sleeping)
+Tgid:	2697
+Pid:	2697
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	 4197572 kB
+VmSize:	 4197568 kB
+VmLck:	       0 kB
+VmHWM:	    8132 kB
+VmRSS:	    8132 kB
+VmData:	 4149888 kB
+VmStk:	     136 kB
+VmExe:	     136 kB
+VmLib:	    6264 kB
+VmPTE:	     376 kB
+Threads:	65
+---------------------------------------
+Name:	gnome-keyring-d
+State:	S (sleeping)
+Tgid:	2692
+Pid:	2692
+PPid:	1
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	64
+VmPeak:	  440132 kB
+VmSize:	  440132 kB
+VmLck:	       0 kB
+VmHWM:	    7092 kB
+VmRSS:	    7092 kB
+VmData:	  385484 kB
+VmStk:	     136 kB
+VmExe:	     872 kB
+VmLib:	    7288 kB
+VmPTE:	     168 kB
+Threads:	7
+---------------------------------------
+Name:	kworker/3:0
+State:	S (sleeping)
+Tgid:	2626
+Pid:	2626
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kauditd
+State:	S (sleeping)
+Tgid:	2615
+Pid:	2615
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:1H
+State:	S (sleeping)
+Tgid:	2608
+Pid:	2608
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:1H
+State:	S (sleeping)
+Tgid:	2605
+Pid:	2605
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:2
+State:	S (sleeping)
+Tgid:	2604
+Pid:	2604
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:1H
+State:	S (sleeping)
+Tgid:	2359
+Pid:	2359
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:1H
+State:	S (sleeping)
+Tgid:	2308
+Pid:	2308
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	2278
+Pid:	2278
+PPid:	1
+TracerPid:	0
+Uid:	111	111	111	111
+Gid:	120	120	120	120
+FDSize:	64
+VmPeak:	   39116 kB
+VmSize:	   39116 kB
+VmLck:	       0 kB
+VmHWM:	     316 kB
+VmRSS:	     316 kB
+VmData:	     248 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      96 kB
+Threads:	1
+---------------------------------------
+Name:	dbus-launch
+State:	S (sleeping)
+Tgid:	2277
+Pid:	2277
+PPid:	1
+TracerPid:	0
+Uid:	111	111	111	111
+Gid:	120	120	120	120
+FDSize:	64
+VmPeak:	   24572 kB
+VmSize:	   24572 kB
+VmLck:	       0 kB
+VmHWM:	    1872 kB
+VmRSS:	    1872 kB
+VmData:	     340 kB
+VmStk:	     136 kB
+VmExe:	      24 kB
+VmLib:	    3492 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	dnsmasq
+State:	S (sleeping)
+Tgid:	2229
+Pid:	2229
+PPid:	1
+TracerPid:	0
+Uid:	116	116	116	116
+Gid:	30	30	30	30
+FDSize:	64
+VmPeak:	   28212 kB
+VmSize:	   28208 kB
+VmLck:	       0 kB
+VmHWM:	    2320 kB
+VmRSS:	    2320 kB
+VmData:	     232 kB
+VmStk:	     136 kB
+VmExe:	     280 kB
+VmLib:	    2860 kB
+VmPTE:	      72 kB
+Threads:	1
+---------------------------------------
+Name:	Xorg
+State:	S (sleeping)
+Tgid:	2115
+Pid:	2115
+PPid:	2103
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	 1852360 kB
+VmSize:	  473972 kB
+VmLck:	       0 kB
+VmHWM:	  540632 kB
+VmRSS:	  127772 kB
+VmData:	   59284 kB
+VmStk:	     136 kB
+VmExe:	    2184 kB
+VmLib:	   49816 kB
+VmPTE:	     628 kB
+Threads:	4
+---------------------------------------
+Name:	mdm
+State:	S (sleeping)
+Tgid:	2103
+Pid:	2103
+PPid:	1877
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	1000	120	1000	120
+FDSize:	64
+VmPeak:	  193376 kB
+VmSize:	  193372 kB
+VmLck:	       0 kB
+VmHWM:	    8676 kB
+VmRSS:	    8676 kB
+VmData:	    1068 kB
+VmStk:	     272 kB
+VmExe:	     248 kB
+VmLib:	   20276 kB
+VmPTE:	     368 kB
+Threads:	1
+---------------------------------------
+Name:	nmbd
+State:	S (sleeping)
+Tgid:	2096
+Pid:	2096
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  231452 kB
+VmSize:	  231452 kB
+VmLck:	       0 kB
+VmHWM:	    5612 kB
+VmRSS:	    5612 kB
+VmData:	     652 kB
+VmStk:	     136 kB
+VmExe:	     236 kB
+VmLib:	   18412 kB
+VmPTE:	     432 kB
+Threads:	1
+---------------------------------------
+Name:	dnsmasq
+State:	S (sleeping)
+Tgid:	1932
+Pid:	1932
+PPid:	1425
+TracerPid:	0
+Uid:	65534	65534	65534	65534
+Gid:	30	30	30	30
+FDSize:	64
+VmPeak:	   31156 kB
+VmSize:	   31028 kB
+VmLck:	       0 kB
+VmHWM:	    3368 kB
+VmRSS:	    3324 kB
+VmData:	     228 kB
+VmStk:	     136 kB
+VmExe:	     280 kB
+VmLib:	    2860 kB
+VmPTE:	      84 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1927
+Pid:	1927
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2128 kB
+VmRSS:	    2128 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	mdm
+State:	S (sleeping)
+Tgid:	1877
+Pid:	1877
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  132940 kB
+VmSize:	  132812 kB
+VmLck:	       0 kB
+VmHWM:	    8112 kB
+VmRSS:	    8112 kB
+VmData:	     516 kB
+VmStk:	     136 kB
+VmExe:	     248 kB
+VmLib:	   18012 kB
+VmPTE:	     256 kB
+Threads:	1
+---------------------------------------
+Name:	java
+State:	S (sleeping)
+Tgid:	1799
+Pid:	1799
+PPid:	1
+TracerPid:	0
+Uid:	119	119	119	119
+Gid:	65534	65534	65534	65534
+FDSize:	512
+VmPeak:	11780368 kB
+VmSize:	11775356 kB
+VmLck:	       0 kB
+VmHWM:	  678360 kB
+VmRSS:	  648680 kB
+VmData:	11704884 kB
+VmStk:	     136 kB
+VmExe:	       4 kB
+VmLib:	   17412 kB
+VmPTE:	    1820 kB
+Threads:	58
+---------------------------------------
+Name:	dhclient
+State:	S (sleeping)
+Tgid:	1737
+Pid:	1737
+PPid:	1425
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   10236 kB
+VmSize:	   10232 kB
+VmLck:	       0 kB
+VmHWM:	    5224 kB
+VmRSS:	    5224 kB
+VmData:	    2388 kB
+VmStk:	     136 kB
+VmExe:	    1604 kB
+VmLib:	    1948 kB
+VmPTE:	      40 kB
+Threads:	1
+---------------------------------------
+Name:	smbd
+State:	S (sleeping)
+Tgid:	1484
+Pid:	1484
+PPid:	886
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  316720 kB
+VmSize:	  316720 kB
+VmLck:	       0 kB
+VmHWM:	    7020 kB
+VmRSS:	    7020 kB
+VmData:	     856 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	   29388 kB
+VmPTE:	     580 kB
+Threads:	1
+---------------------------------------
+Name:	smbd
+State:	S (sleeping)
+Tgid:	1481
+Pid:	1481
+PPid:	886
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  308760 kB
+VmSize:	  308760 kB
+VmLck:	       0 kB
+VmHWM:	    5348 kB
+VmRSS:	    5348 kB
+VmData:	     856 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	   29268 kB
+VmPTE:	     568 kB
+Threads:	1
+---------------------------------------
+Name:	libvirtd
+State:	S (sleeping)
+Tgid:	1468
+Pid:	1468
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  442596 kB
+VmSize:	  377320 kB
+VmLck:	       0 kB
+VmHWM:	   20080 kB
+VmRSS:	   20068 kB
+VmData:	  165152 kB
+VmStk:	     136 kB
+VmExe:	     520 kB
+VmLib:	   30156 kB
+VmPTE:	     468 kB
+Threads:	11
+---------------------------------------
+Name:	cron
+State:	S (sleeping)
+Tgid:	1459
+Pid:	1459
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   23788 kB
+VmSize:	   23656 kB
+VmLck:	       0 kB
+VmHWM:	    2284 kB
+VmRSS:	    2284 kB
+VmData:	     268 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    2656 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	cups-browsed
+State:	S (sleeping)
+Tgid:	1452
+Pid:	1452
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   75360 kB
+VmSize:	   75360 kB
+VmLck:	       0 kB
+VmHWM:	    5796 kB
+VmRSS:	    5796 kB
+VmData:	     568 kB
+VmStk:	     136 kB
+VmExe:	      48 kB
+VmLib:	    8708 kB
+VmPTE:	     160 kB
+Threads:	1
+---------------------------------------
+Name:	polkitd
+State:	S (sleeping)
+Tgid:	1438
+Pid:	1438
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  281824 kB
+VmSize:	  281184 kB
+VmLck:	       0 kB
+VmHWM:	    7460 kB
+VmRSS:	    7460 kB
+VmData:	  223052 kB
+VmStk:	     136 kB
+VmExe:	       8 kB
+VmLib:	    6580 kB
+VmPTE:	     160 kB
+Threads:	3
+---------------------------------------
+Name:	kerneloops
+State:	S (sleeping)
+Tgid:	1430
+Pid:	1430
+PPid:	1
+TracerPid:	0
+Uid:	106	106	106	106
+Gid:	4	4	4	4
+FDSize:	64
+VmPeak:	   37148 kB
+VmSize:	   37148 kB
+VmLck:	       0 kB
+VmHWM:	    2488 kB
+VmRSS:	    2488 kB
+VmData:	     260 kB
+VmStk:	     136 kB
+VmExe:	      20 kB
+VmLib:	    5888 kB
+VmPTE:	      92 kB
+Threads:	1
+---------------------------------------
+Name:	NetworkManager
+State:	S (sleeping)
+Tgid:	1425
+Pid:	1425
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  340760 kB
+VmSize:	  340728 kB
+VmLck:	       0 kB
+VmHWM:	   10072 kB
+VmRSS:	   10072 kB
+VmData:	  230228 kB
+VmStk:	     136 kB
+VmExe:	    1072 kB
+VmLib:	   13712 kB
+VmPTE:	     252 kB
+Threads:	4
+---------------------------------------
+Name:	acpid
+State:	S (sleeping)
+Tgid:	1307
+Pid:	1307
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	    4376 kB
+VmSize:	    4372 kB
+VmLck:	       0 kB
+VmHWM:	    1660 kB
+VmRSS:	    1660 kB
+VmData:	     196 kB
+VmStk:	     136 kB
+VmExe:	      44 kB
+VmLib:	    1908 kB
+VmPTE:	      32 kB
+Threads:	1
+---------------------------------------
+Name:	irqbalance
+State:	S (sleeping)
+Tgid:	1306
+Pid:	1306
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   19204 kB
+VmSize:	   19196 kB
+VmLck:	       0 kB
+VmHWM:	    2160 kB
+VmRSS:	    2160 kB
+VmData:	     220 kB
+VmStk:	     136 kB
+VmExe:	      40 kB
+VmLib:	    4400 kB
+VmPTE:	      56 kB
+Threads:	1
+---------------------------------------
+Name:	sshd
+State:	S (sleeping)
+Tgid:	1297
+Pid:	1297
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   61512 kB
+VmSize:	   61384 kB
+VmLck:	       0 kB
+VmHWM:	    5404 kB
+VmRSS:	    5404 kB
+VmData:	     556 kB
+VmStk:	     136 kB
+VmExe:	     740 kB
+VmLib:	    6332 kB
+VmPTE:	     136 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1255
+Pid:	1255
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2120 kB
+VmRSS:	    2120 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      48 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1252
+Pid:	1252
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2064 kB
+VmRSS:	    2064 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1251
+Pid:	1251
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2124 kB
+VmRSS:	    2124 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1243
+Pid:	1243
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2136 kB
+VmRSS:	    2136 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	getty
+State:	S (sleeping)
+Tgid:	1241
+Pid:	1241
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15824 kB
+VmSize:	   15820 kB
+VmLck:	       0 kB
+VmHWM:	    2072 kB
+VmRSS:	    2072 kB
+VmData:	     208 kB
+VmStk:	     136 kB
+VmExe:	      28 kB
+VmLib:	    2120 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	avahi-daemon
+State:	S (sleeping)
+Tgid:	1179
+Pid:	1179
+PPid:	1177
+TracerPid:	0
+Uid:	107	107	107	107
+Gid:	115	115	115	115
+FDSize:	64
+VmPeak:	   32224 kB
+VmSize:	   32224 kB
+VmLck:	       0 kB
+VmHWM:	     252 kB
+VmRSS:	     252 kB
+VmData:	     228 kB
+VmStk:	     136 kB
+VmExe:	     116 kB
+VmLib:	    2972 kB
+VmPTE:	      80 kB
+Threads:	1
+---------------------------------------
+Name:	avahi-daemon
+State:	S (sleeping)
+Tgid:	1177
+Pid:	1177
+PPid:	1
+TracerPid:	0
+Uid:	107	107	107	107
+Gid:	115	115	115	115
+FDSize:	64
+VmPeak:	   34416 kB
+VmSize:	   32348 kB
+VmLck:	       0 kB
+VmHWM:	    3012 kB
+VmRSS:	    3012 kB
+VmData:	     352 kB
+VmStk:	     136 kB
+VmExe:	     116 kB
+VmLib:	    2972 kB
+VmPTE:	      84 kB
+Threads:	1
+---------------------------------------
+Name:	zfs-fuse
+State:	S (sleeping)
+Tgid:	1057
+Pid:	1057
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  482356 kB
+VmSize:	  353316 kB
+VmLck:	       0 kB
+VmHWM:	   75268 kB
+VmRSS:	   75268 kB
+VmData:	  327084 kB
+VmStk:	     136 kB
+VmExe:	    1124 kB
+VmLib:	    4404 kB
+VmPTE:	     456 kB
+Threads:	54
+---------------------------------------
+Name:	systemd-logind
+State:	S (sleeping)
+Tgid:	1055
+Pid:	1055
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   43580 kB
+VmSize:	   43452 kB
+VmLck:	       0 kB
+VmHWM:	    3232 kB
+VmRSS:	    3208 kB
+VmData:	     780 kB
+VmStk:	     136 kB
+VmExe:	     240 kB
+VmLib:	    3260 kB
+VmPTE:	     104 kB
+Threads:	1
+---------------------------------------
+Name:	krfcommd
+State:	S (sleeping)
+Tgid:	1047
+Pid:	1047
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	bluetoothd
+State:	S (sleeping)
+Tgid:	1036
+Pid:	1036
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   19300 kB
+VmSize:	   19300 kB
+VmLck:	       0 kB
+VmHWM:	    2804 kB
+VmRSS:	    2804 kB
+VmData:	     220 kB
+VmStk:	     136 kB
+VmExe:	     860 kB
+VmLib:	    3612 kB
+VmPTE:	      56 kB
+Threads:	1
+---------------------------------------
+Name:	rsyslogd
+State:	S (sleeping)
+Tgid:	1031
+Pid:	1031
+PPid:	1
+TracerPid:	0
+Uid:	101	101	101	101
+Gid:	104	104	104	104
+FDSize:	64
+VmPeak:	  255848 kB
+VmSize:	  255844 kB
+VmLck:	       0 kB
+VmHWM:	    3180 kB
+VmRSS:	    3180 kB
+VmData:	  221540 kB
+VmStk:	     136 kB
+VmExe:	     476 kB
+VmLib:	    2828 kB
+VmPTE:	     104 kB
+Threads:	4
+---------------------------------------
+Name:	ModemManager
+State:	S (sleeping)
+Tgid:	1016
+Pid:	1016
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  334456 kB
+VmSize:	  334452 kB
+VmLck:	       0 kB
+VmHWM:	    7416 kB
+VmRSS:	    7416 kB
+VmData:	  221848 kB
+VmStk:	     136 kB
+VmExe:	     892 kB
+VmLib:	    8808 kB
+VmPTE:	     268 kB
+Threads:	3
+---------------------------------------
+Name:	dbus-daemon
+State:	S (sleeping)
+Tgid:	1003
+Pid:	1003
+PPid:	1
+TracerPid:	0
+Uid:	102	102	102	102
+Gid:	108	108	108	108
+FDSize:	64
+VmPeak:	   39976 kB
+VmSize:	   39972 kB
+VmLck:	       0 kB
+VmHWM:	    3220 kB
+VmRSS:	    3220 kB
+VmData:	    1104 kB
+VmStk:	     136 kB
+VmExe:	     416 kB
+VmLib:	    3376 kB
+VmPTE:	      96 kB
+Threads:	1
+---------------------------------------
+Name:	upstart-file-br
+State:	S (sleeping)
+Tgid:	997
+Pid:	997
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15280 kB
+VmSize:	   15280 kB
+VmLck:	       0 kB
+VmHWM:	    1872 kB
+VmRSS:	    1872 kB
+VmData:	     224 kB
+VmStk:	     136 kB
+VmExe:	     132 kB
+VmLib:	    2432 kB
+VmPTE:	      48 kB
+Threads:	1
+---------------------------------------
+Name:	rpc.idmapd
+State:	S (sleeping)
+Tgid:	971
+Pid:	971
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   23480 kB
+VmSize:	   23480 kB
+VmLck:	       0 kB
+VmHWM:	     204 kB
+VmRSS:	     204 kB
+VmData:	     224 kB
+VmStk:	     136 kB
+VmExe:	      20 kB
+VmLib:	    2532 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	nfsiod
+State:	S (sleeping)
+Tgid:	901
+Pid:	901
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rpciod
+State:	S (sleeping)
+Tgid:	889
+Pid:	889
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	smbd
+State:	S (sleeping)
+Tgid:	886
+Pid:	886
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	  317220 kB
+VmSize:	  316720 kB
+VmLck:	       0 kB
+VmHWM:	   15968 kB
+VmRSS:	   15968 kB
+VmData:	     856 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	   29388 kB
+VmPTE:	     608 kB
+Threads:	1
+---------------------------------------
+Name:	ext4-rsv-conver
+State:	S (sleeping)
+Tgid:	867
+Pid:	867
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	jbd2/sda3-8
+State:	S (sleeping)
+Tgid:	866
+Pid:	866
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ext4-rsv-conver
+State:	S (sleeping)
+Tgid:	847
+Pid:	847
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:1H
+State:	S (sleeping)
+Tgid:	808
+Pid:	808
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/3:1H
+State:	S (sleeping)
+Tgid:	795
+Pid:	795
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rpc.statd
+State:	S (sleeping)
+Tgid:	788
+Pid:	788
+PPid:	1
+TracerPid:	0
+Uid:	118	118	118	118
+Gid:	65534	65534	65534	65534
+FDSize:	64
+VmPeak:	   21552 kB
+VmSize:	   21544 kB
+VmLck:	       0 kB
+VmHWM:	    2568 kB
+VmRSS:	    2564 kB
+VmData:	     448 kB
+VmStk:	     136 kB
+VmExe:	      64 kB
+VmLib:	    2384 kB
+VmPTE:	      64 kB
+Threads:	1
+---------------------------------------
+Name:	rpcbind
+State:	S (sleeping)
+Tgid:	757
+Pid:	757
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   23552 kB
+VmSize:	   23424 kB
+VmLck:	       0 kB
+VmHWM:	    2296 kB
+VmRSS:	    2296 kB
+VmData:	     236 kB
+VmStk:	     136 kB
+VmExe:	      44 kB
+VmLib:	    2448 kB
+VmPTE:	      68 kB
+Threads:	1
+---------------------------------------
+Name:	hd-audio0
+State:	S (sleeping)
+Tgid:	693
+Pid:	693
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	upstart-socket-
+State:	S (sleeping)
+Tgid:	691
+Pid:	691
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   15264 kB
+VmSize:	   15264 kB
+VmLck:	       0 kB
+VmHWM:	    1816 kB
+VmRSS:	    1816 kB
+VmData:	     216 kB
+VmStk:	     136 kB
+VmExe:	     124 kB
+VmLib:	    2432 kB
+VmPTE:	      48 kB
+Threads:	1
+---------------------------------------
+Name:	kmpath_handlerd
+State:	S (sleeping)
+Tgid:	628
+Pid:	628
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kmpathd
+State:	S (sleeping)
+Tgid:	627
+Pid:	627
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kvm-irqfd-clean
+State:	S (sleeping)
+Tgid:	615
+Pid:	615
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:1H
+State:	S (sleeping)
+Tgid:	584
+Pid:	584
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	hd-audio1
+State:	S (sleeping)
+Tgid:	571
+Pid:	571
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	hd-audio2
+State:	S (sleeping)
+Tgid:	569
+Pid:	569
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:1H
+State:	S (sleeping)
+Tgid:	564
+Pid:	564
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	irq/34-mei_me
+State:	S (sleeping)
+Tgid:	556
+Pid:	556
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	systemd-udevd
+State:	S (sleeping)
+Tgid:	482
+Pid:	482
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   52464 kB
+VmSize:	   52196 kB
+VmLck:	       0 kB
+VmHWM:	    4188 kB
+VmRSS:	    3992 kB
+VmData:	    1596 kB
+VmStk:	     136 kB
+VmExe:	     200 kB
+VmLib:	    3412 kB
+VmPTE:	     108 kB
+Threads:	1
+---------------------------------------
+Name:	upstart-udev-br
+State:	S (sleeping)
+Tgid:	477
+Pid:	477
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+VmPeak:	   19612 kB
+VmSize:	   19612 kB
+VmLck:	       0 kB
+VmHWM:	    2088 kB
+VmRSS:	    2088 kB
+VmData:	     352 kB
+VmStk:	     136 kB
+VmExe:	      68 kB
+VmLib:	    2596 kB
+VmPTE:	      52 kB
+Threads:	1
+---------------------------------------
+Name:	ext4-rsv-conver
+State:	S (sleeping)
+Tgid:	301
+Pid:	301
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	jbd2/sda2-8
+State:	S (sleeping)
+Tgid:	300
+Pid:	300
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	bioset
+State:	S (sleeping)
+Tgid:	288
+Pid:	288
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:1
+State:	S (sleeping)
+Tgid:	237
+Pid:	237
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ttm_swap
+State:	S (sleeping)
+Tgid:	234
+Pid:	234
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:2
+State:	S (sleeping)
+Tgid:	225
+Pid:	225
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/3:3
+State:	S (sleeping)
+Tgid:	224
+Pid:	224
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:1
+State:	S (sleeping)
+Tgid:	222
+Pid:	222
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:1
+State:	S (sleeping)
+Tgid:	220
+Pid:	220
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:1
+State:	S (sleeping)
+Tgid:	219
+Pid:	219
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:1
+State:	S (sleeping)
+Tgid:	218
+Pid:	218
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_5
+State:	S (sleeping)
+Tgid:	189
+Pid:	189
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_5
+State:	S (sleeping)
+Tgid:	188
+Pid:	188
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_4
+State:	S (sleeping)
+Tgid:	187
+Pid:	187
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_4
+State:	S (sleeping)
+Tgid:	186
+Pid:	186
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_3
+State:	S (sleeping)
+Tgid:	185
+Pid:	185
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_3
+State:	S (sleeping)
+Tgid:	184
+Pid:	184
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_2
+State:	S (sleeping)
+Tgid:	183
+Pid:	183
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_2
+State:	S (sleeping)
+Tgid:	182
+Pid:	182
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_1
+State:	S (sleeping)
+Tgid:	181
+Pid:	181
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_1
+State:	S (sleeping)
+Tgid:	180
+Pid:	180
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_tmf_0
+State:	S (sleeping)
+Tgid:	179
+Pid:	179
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	scsi_eh_0
+State:	S (sleeping)
+Tgid:	178
+Pid:	178
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kpsmoused
+State:	S (sleeping)
+Tgid:	177
+Pid:	177
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:1
+State:	S (sleeping)
+Tgid:	127
+Pid:	127
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	charger_manager
+State:	S (sleeping)
+Tgid:	120
+Pid:	120
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	deferwq
+State:	S (sleeping)
+Tgid:	119
+Pid:	119
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ipv6_addrconf
+State:	S (sleeping)
+Tgid:	99
+Pid:	99
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	acpi_thermal_pm
+State:	S (sleeping)
+Tgid:	95
+Pid:	95
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kthrotld
+State:	S (sleeping)
+Tgid:	94
+Pid:	94
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ecryptfs-kthrea
+State:	S (sleeping)
+Tgid:	82
+Pid:	82
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	fsnotify_mark
+State:	S (sleeping)
+Tgid:	81
+Pid:	81
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kswapd0
+State:	S (sleeping)
+Tgid:	80
+Pid:	80
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	devfreq_wq
+State:	S (sleeping)
+Tgid:	76
+Pid:	76
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	md
+State:	S (sleeping)
+Tgid:	75
+Pid:	75
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ata_sff
+State:	S (sleeping)
+Tgid:	74
+Pid:	74
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kblockd
+State:	S (sleeping)
+Tgid:	73
+Pid:	73
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	bioset
+State:	S (sleeping)
+Tgid:	72
+Pid:	72
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kintegrityd
+State:	S (sleeping)
+Tgid:	71
+Pid:	71
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	crypto
+State:	S (sleeping)
+Tgid:	70
+Pid:	70
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	khugepaged
+State:	S (sleeping)
+Tgid:	69
+Pid:	69
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksmd
+State:	S (sleeping)
+Tgid:	68
+Pid:	68
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	writeback
+State:	S (sleeping)
+Tgid:	67
+Pid:	67
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	khungtaskd
+State:	S (sleeping)
+Tgid:	66
+Pid:	66
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	perf
+State:	S (sleeping)
+Tgid:	65
+Pid:	65
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	netns
+State:	S (sleeping)
+Tgid:	64
+Pid:	64
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kdevtmpfs
+State:	S (sleeping)
+Tgid:	63
+Pid:	63
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	khelper
+State:	S (sleeping)
+Tgid:	62
+Pid:	62
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/7
+State:	S (sleeping)
+Tgid:	61
+Pid:	61
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/7
+State:	S (sleeping)
+Tgid:	60
+Pid:	60
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:0H
+State:	S (sleeping)
+Tgid:	59
+Pid:	59
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/7:0
+State:	S (sleeping)
+Tgid:	58
+Pid:	58
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/7
+State:	S (sleeping)
+Tgid:	57
+Pid:	57
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/7
+State:	S (sleeping)
+Tgid:	56
+Pid:	56
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/7
+State:	S (sleeping)
+Tgid:	55
+Pid:	55
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/6
+State:	S (sleeping)
+Tgid:	54
+Pid:	54
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/6
+State:	S (sleeping)
+Tgid:	53
+Pid:	53
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/6:0H
+State:	S (sleeping)
+Tgid:	52
+Pid:	52
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/6
+State:	S (sleeping)
+Tgid:	50
+Pid:	50
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/6
+State:	S (sleeping)
+Tgid:	49
+Pid:	49
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/6
+State:	S (sleeping)
+Tgid:	48
+Pid:	48
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/5
+State:	S (sleeping)
+Tgid:	47
+Pid:	47
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/5
+State:	S (sleeping)
+Tgid:	46
+Pid:	46
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:0H
+State:	S (sleeping)
+Tgid:	45
+Pid:	45
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/5:0
+State:	S (sleeping)
+Tgid:	44
+Pid:	44
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/5
+State:	S (sleeping)
+Tgid:	43
+Pid:	43
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/5
+State:	S (sleeping)
+Tgid:	42
+Pid:	42
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/5
+State:	S (sleeping)
+Tgid:	41
+Pid:	41
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/4
+State:	S (sleeping)
+Tgid:	40
+Pid:	40
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/4
+State:	S (sleeping)
+Tgid:	39
+Pid:	39
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:0H
+State:	S (sleeping)
+Tgid:	38
+Pid:	38
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/4:0
+State:	S (sleeping)
+Tgid:	37
+Pid:	37
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/4
+State:	S (sleeping)
+Tgid:	36
+Pid:	36
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/4
+State:	S (sleeping)
+Tgid:	35
+Pid:	35
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/4
+State:	S (sleeping)
+Tgid:	34
+Pid:	34
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/3
+State:	S (sleeping)
+Tgid:	33
+Pid:	33
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/3
+State:	S (sleeping)
+Tgid:	32
+Pid:	32
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/3:0H
+State:	S (sleeping)
+Tgid:	31
+Pid:	31
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/3
+State:	S (sleeping)
+Tgid:	29
+Pid:	29
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/3
+State:	S (sleeping)
+Tgid:	28
+Pid:	28
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/3
+State:	S (sleeping)
+Tgid:	27
+Pid:	27
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/2
+State:	S (sleeping)
+Tgid:	26
+Pid:	26
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/2
+State:	S (sleeping)
+Tgid:	25
+Pid:	25
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:0H
+State:	S (sleeping)
+Tgid:	24
+Pid:	24
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/2:0
+State:	S (sleeping)
+Tgid:	23
+Pid:	23
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/2
+State:	S (sleeping)
+Tgid:	22
+Pid:	22
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/2
+State:	S (sleeping)
+Tgid:	21
+Pid:	21
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/2
+State:	S (sleeping)
+Tgid:	20
+Pid:	20
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/1
+State:	S (sleeping)
+Tgid:	19
+Pid:	19
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/1
+State:	S (sleeping)
+Tgid:	18
+Pid:	18
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/1:0H
+State:	S (sleeping)
+Tgid:	17
+Pid:	17
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/1
+State:	S (sleeping)
+Tgid:	15
+Pid:	15
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/1
+State:	S (sleeping)
+Tgid:	14
+Pid:	14
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/1
+State:	S (sleeping)
+Tgid:	13
+Pid:	13
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	watchdog/0
+State:	S (sleeping)
+Tgid:	12
+Pid:	12
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	migration/0
+State:	S (sleeping)
+Tgid:	11
+Pid:	11
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuob/0
+State:	S (sleeping)
+Tgid:	10
+Pid:	10
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcuos/0
+State:	S (sleeping)
+Tgid:	9
+Pid:	9
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcu_bh
+State:	S (sleeping)
+Tgid:	8
+Pid:	8
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	rcu_sched
+State:	S (sleeping)
+Tgid:	7
+Pid:	7
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kworker/0:0H
+State:	S (sleeping)
+Tgid:	5
+Pid:	5
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	ksoftirqd/0
+State:	S (sleeping)
+Tgid:	3
+Pid:	3
+PPid:	2
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	kthreadd
+State:	S (sleeping)
+Tgid:	2
+Pid:	2
+PPid:	0
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Threads:	1
+---------------------------------------
+Name:	init
+State:	S (sleeping)
+Tgid:	1
+Pid:	1
+PPid:	0
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	128
+VmPeak:	   34048 kB
+VmSize:	   34044 kB
+VmLck:	       0 kB
+VmHWM:	    4552 kB
+VmRSS:	    4552 kB
+VmData:	    1820 kB
+VmStk:	     136 kB
+VmExe:	     248 kB
+VmLib:	    3068 kB
+VmPTE:	      88 kB
+Threads:	1
+---------------------------------------

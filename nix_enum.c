@@ -52,7 +52,7 @@ int get_process_info(char *test){
       
         char line_buff[250];	// Buffer for lines read from file
 	char full_p[55];	// Buffer for path to proc status
-	sprintf(full_p, "%s/status",test); // Append filename (status to prev path
+	sprintf(full_p, "%s/status\0",test); // Append filename (status to prev path
         FILE *fp = fopen(full_p, "r");	// Declaration & Initialization of file pointer
 	FILE *fp2 = fopen("enum_data.txt", "a+");    // Declaration & Initialization of output file pointer
 
@@ -110,13 +110,15 @@ return 0; // Exit Function
 }
 
 int get_process_mem_stats(char *pid){
-	char p_strg[150];
+	char p_strg[50];
 	char l_buff[150];
 	int fd;
+	int column = 0; // column for proc mem stats
 	ssize_t n;
+	
 
-	sprintf(p_strg, "%s/statm", pid);
-	printf("DBG: %s", p_strg);
+	sprintf(p_strg, "%s/statm\0", pid);
+	printf("DBG: %s\n", p_strg);
 	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
 	FILE *fp2 = fopen("enum_data.txt", "a+");
 
@@ -125,19 +127,21 @@ int get_process_mem_stats(char *pid){
 		printf("Error, File Open");} 
 
 	n = read(fd, l_buff, sizeof(l_buff));
-	printf("Buffer %s", l_buff);
-/*
 	// Loop though open file and test each line with if statements
-        if (fgets(l_bff1, sizeof(l_bff1), fp3) != NULL){ 
+        if (fgets(l_buff, sizeof(l_buff), fp3) != NULL){ 
 		// CONTINUE MAKING CHANGES HERE... BREAKDOWN LINE FROM FILE
 		// ADD LABELS TO SECTIONS AND WRITE TO FILE
-		char *prsd = strtok(l_bff1, " ");
+		char *prsd = strtok(l_buff, " ");
 		while (prsd != NULL){
-			printf("%s\n", prsd);
+			switch (column){
+				case 0:
+					char col_name[13] = "Process Size\t";
+					break;
+					printf("%s\n", prsd);
 			prsd = strtok(NULL, " ");}}
 		//strcpy(p_strg, l_bff1);
 //	else {
-*/
+
 		//fclose(fd); 
 		fclose(fp2);
 //		return 0;
