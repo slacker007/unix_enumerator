@@ -51,10 +51,9 @@ int get_process_info(char *test){
         char *vpte = "VmPTE:";
       
         char line_buff[250];	// Buffer for lines read from file
-	char *full_p;
-	strcat (full_p, test);
-	strcat(full_p, "/status");	// Append filename (status) to the previously created path
-        FILE *fp = fopen(test, "r");	// Declaration & Initialization of file pointer
+	char full_p[55];	// Buffer for path to proc status
+	sprintf(full_p, "%s/status",test); // Append filename (status to prev path
+        FILE *fp = fopen(full_p, "r");	// Declaration & Initialization of file pointer
 	FILE *fp2 = fopen("enum_data.txt", "a+");    // Declaration & Initialization of output file pointer
 
 	// Loop though open file and test each line with if statements
@@ -116,8 +115,9 @@ int get_process_mem_stats(char *pid){
 	int fd;
 	ssize_t n;
 
-	strcat(pid, "/statm");
-//	FILE *fp3 = fopen(pid, "r"); // Open File for Process Mem Stats
+	sprintf(p_strg, "%s/statm", pid);
+	printf("DBG: %s", p_strg);
+	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
 	FILE *fp2 = fopen("enum_data.txt", "a+");
 
 	fd = open(pid, O_RDONLY);
