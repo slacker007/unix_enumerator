@@ -14,16 +14,64 @@
 #define MAX_PID 50  // Size of buffer to read the MAX PID for the system
 #define MAX_LN 24 // Max size of filename for process
 
+// Function Prototypes
 int get_process_info(char *test); // Enumerate Process info
 int get_process_mem_stats(char *pid); // Enumerate Proc Mem Stats
 bool startsWith(const char *str, const char *pre); // Search Line for String
 int get_kernel_info(); // Enumerate Kernel Info
+int get_net_info(); // Enumerate Network Info
+
 
 bool startsWith(const char *str, const char *pre){	// Function to search string from the beginning looking for prefix matches
 	size_t lenpre = strlen(pre), // Get the length of string prefix
 	       lenstr = strlen(str); // Get the lenght of full string
 	return lenstr < lenpre ? false : strncmp(pre, str, lenpre) == 0; // compare length of prefix and full string then compare strings 
 }
+
+int get_net_info(){
+	char *tcp = "/proc/net/tcp";
+	char *tcp6 = "/proc/net/tcp6";
+	char *udp = "/proc/net/udp";
+	char *udp6 = "/proc/net/udp6";
+
+	char l_buff[250];
+
+        FILE *fp2 = fopen("enum_data.txt", "a+");
+	FILE *fp3 = fopen(tcp, "r");
+	FILE *fp4 = fopen(tcp6, "r");
+	FILE *fp5 = fopen(udp, "r");
+	FILE *fp6 = fopen(udp6, "r");
+
+	fputs("--------------NET INFO------------\n", fp2);
+
+	fputs("\n--------------IP V4------------\n", fp2);
+        while (fgets(l_buff, sizeof(l_buff), fp3) != NULL){ 
+               if (!feof(fp3)){	// Ensure End of File has not been reached
+		  fputs(l_buff, fp2);}}
+	fputs("--------------IP V6------------\n", fp2);
+        while (fgets(l_buff, sizeof(l_buff), fp4) != NULL){ 
+               if (!feof(fp4)){	// Ensure End of File has not been reached
+		  fputs(l_buff, fp2);}}
+
+	fputs("--------------UDP------------\n", fp2);
+        while (fgets(l_buff, sizeof(l_buff), fp5) != NULL){ 
+               if (!feof(fp5)){	// Ensure End of File has not been reached
+		  fputs(l_buff, fp2);}}
+
+	fputs("--------------UDP6------------\n", fp2);
+        while (fgets(l_buff, sizeof(l_buff), fp6) != NULL){ 
+               if (!feof(fp6)){	// Ensure End of File has not been reached
+		  fputs(l_buff, fp2);}}
+	fputs("--------------------------------\n", fp2);
+fclose(fp2);
+fclose(fp3);
+fclose(fp4);
+fclose(fp5);
+fclose(fp6);
+return 0;
+}
+
+
 
 int get_kernel_info(){
 	char *k_ost = "/proc/sys/kernel/ostype";
@@ -60,8 +108,7 @@ int get_kernel_info(){
 	else{
                 n = read(fd3, l_buff, sizeof(l_buff)); // Read in Data from kernel ostype
 		sprintf(p_str, "OS VERSION: %s\n", l_buff);
-		fputs(p_str, fp2);
-                fputs("--------------------------------\n", fp2);}
+		fputs(p_str, fp2);}
 	fclose(fp2);
 return 0;
 }
@@ -145,7 +192,7 @@ int get_process_info(char *test){
 			fclose(fp2); // Close output file
 			return 0;}}
 
-	fputs("---------------------------------------\n", fp2);  // Write line to seperate process info
+	fputs("--------------------------------------\n", fp2);  // Write line to seperate process info
 return 0; // Exit Function
 }
 
@@ -167,7 +214,7 @@ int get_process_mem_stats(char *pid){
 	
 	n = read(fd, l_buff, sizeof(l_buff)); // Read in Data from process stat file
 
-	// Loop though open file and test each line with if statements
+	// Open file and break up by whitespace
         if (fgets(l_buff, sizeof(l_buff), fp3) != NULL){ 
 		char *prsd = strtok(l_buff, " "); // Break Memory Stats into Columns
 		while (prsd != NULL){ // Continue until no more data is gone
@@ -204,7 +251,7 @@ int get_process_mem_stats(char *pid){
 			prsd = strtok(NULL, " ");
 		}
 		fputs(p_strg, fp2);
-		fputs("\n---------------------------------------\n", fp2);  // Write line to seperate process info
+		fputs("\n-------------------PROCESS MEMORY--------------------\n", fp2);  // Write line to seperate process info
 		fclose(fp2);}
 return 0;
 }
@@ -245,6 +292,7 @@ int main(void){
 		p_cnt += 1;}}			// Incriment to the next position in array 
 	(void)closedir(dir);			// Close '/proc/' Directory
 	get_kernel_info();
+	get_net_info();
 	for (int i = 0; i < p_cnt - 1; i++){	// For loop to enumerate process information for each value in process array
 		get_process_info(p_arry[i]);	// Call to get_process_info function that passes in absolute path to process
 		get_process_mem_stats(p_arry[i]);
