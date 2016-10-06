@@ -114,6 +114,7 @@ int get_process_mem_stats(char *pid){
 	char l_buff[150];
 	int fd;
 	int column = 0; // column for proc mem stats
+	int max_col = 65;
 	ssize_t n;
 	
 
@@ -133,11 +134,32 @@ int get_process_mem_stats(char *pid){
 		// ADD LABELS TO SECTIONS AND WRITE TO FILE
 		char *prsd = strtok(l_buff, " ");
 		while (prsd != NULL){
+			char col_name[max_col];
 			switch (column){
 				case 0:
-					char col_name[13] = "Process Size\t";
+					strcpy(col_name, "Process Size:\t");
 					break;
-					printf("%s\n", prsd);
+				case 1:
+					strcpy(col_name, "Size of Process in Physical Memory:\t");
+					break;
+				case 2:
+					strcpy(col_name, "Shared Memory:\t");
+					break;
+				case 3:
+					strcpy(col_name, "Size of Loaded Exe Code:\t");
+					break;
+				case 4:
+					strcpy(col_name, "Size of Shared Mapped Libraries:\t");
+					break;
+				case 5:
+					strcpy(col_name, "Memory use by process for stack:\t");
+					break;
+				case 6:
+					strcpy(col_name, "# of Dirty Pages pages of memory modified by the executable:\t");
+					break;
+			}
+			printf("%s%s\n",col_name, prsd);
+			column += 1;
 			prsd = strtok(NULL, " ");}}
 		//strcpy(p_strg, l_bff1);
 //	else {
