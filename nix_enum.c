@@ -115,27 +115,26 @@ int get_process_mem_stats(char *pid){
 	int fd;
 	int column = 0; // column for proc mem stats
 	int max_col = 65;
-	ssize_t n;
-	
+	ssize_t n;	// variable for amount of bytes read into buffer
 
 	sprintf(p_strg, "%s/statm\0", pid);
-	printf("DBG: %s\n", p_strg);
 	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
 	FILE *fp2 = fopen("enum_data.txt", "a+");
 
-	fd = open(pid, O_RDONLY);
-	if (fd == -1){
-		printf("Error, File Open");} 
+	fd = open(pid, O_RDONLY); // open process file for (pid) return file descriptor into (fd)
+		if (fd == -1){
+			printf("Error, File Open");}
+	
+	n = read(fd, l_buff, sizeof(l_buff)); // Read in Data from process stat file
 
-	n = read(fd, l_buff, sizeof(l_buff));
 	// Loop though open file and test each line with if statements
         if (fgets(l_buff, sizeof(l_buff), fp3) != NULL){ 
-		// CONTINUE MAKING CHANGES HERE... BREAKDOWN LINE FROM FILE
-		// ADD LABELS TO SECTIONS AND WRITE TO FILE
-		char *prsd = strtok(l_buff, " ");
-		while (prsd != NULL){
-			char col_name[max_col];
-			switch (column){
+		char *prsd = strtok(l_buff, " "); // Break Memory Stats into Columns
+		while (prsd != NULL){ // Continue until no more data is gone
+			char col_name[max_col]; // Create local variable of size (max_col)
+			switch (column){ // test column variable to determine which column data belongs
+				// case statements to compare values against value of column
+				// when case is met copy  string into (col_name) variable
 				case 0:
 					strcpy(col_name, "Process Size:\t");
 					break;
@@ -146,29 +145,26 @@ int get_process_mem_stats(char *pid){
 					strcpy(col_name, "Shared Memory:\t");
 					break;
 				case 3:
-					strcpy(col_name, "Size of Loaded Exe Code:\t");
+					strcpy(col_name, "Size of Loaded Executable Code:\t");
 					break;
 				case 4:
 					strcpy(col_name, "Size of Shared Mapped Libraries:\t");
 					break;
 				case 5:
-					strcpy(col_name, "Memory use by process for stack:\t");
+					strcpy(col_name, "Memory used by the process for stack:\t");
 					break;
 				case 6:
 					strcpy(col_name, "# of Dirty Pages pages of memory modified by the executable:\t");
 					break;
 			}
-			printf("%s%s\n",col_name, prsd);
+			char write_line[65];
+			sprintf(write_line, "%s%s\n", col_name, prsd);
+			fputs(write_line, fp2);
 			column += 1;
-			prsd = strtok(NULL, " ");}}
-		//strcpy(p_strg, l_bff1);
-//	else {
-
-		//fclose(fd); 
+			prsd = strtok(NULL, " ");
+		}
+		fputs("---------------------------------------\n", fp2);}  // Write line to seperate process info
 		fclose(fp2);
-//		return 0;
-//}			
-//			fputs(l_bff1, fp2);}
 return 0;
 }
 
