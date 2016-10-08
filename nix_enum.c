@@ -137,7 +137,7 @@ int get_process_info(char *test){
         char *vlib = "VmLib:";
         char *vpte = "VmPTE:";
       
-        char line_buff[250];	// Buffer for lines read from file
+        char line_buff[500];	// Buffer for lines read from file
 	char full_p[55];	// Buffer for path to proc status
 	sprintf(full_p, "%s/status\0",test); // Append filename (status to prev path
         FILE *fp = fopen(full_p, "r");	// Declaration & Initialization of file pointer
