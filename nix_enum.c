@@ -203,7 +203,6 @@ int get_process_mem_stats(char *pid){
 	int column = 0; // column for proc mem stats
 	int max_col = 65;
 	ssize_t n;	// variable for amount of bytes read into buffer
-	ssize_t max_l_buff = sizeof(l_buff); // use to chk for EOF by compare curr buff to max buff
 
 	sprintf(p_strg, "%s/statm\0", pid);
 	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
