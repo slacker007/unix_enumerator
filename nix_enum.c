@@ -203,6 +203,7 @@ int get_process_mem_stats(char *pid){
 	int column = 0; // column for proc mem stats
 	int max_col = 65;
 	ssize_t n;	// variable for amount of bytes read into buffer
+	ssize_t max_l_buff = sizeof(l_buff); // use to chk for EOF by compare curr buff to max buff
 
 	sprintf(p_strg, "%s/statm\0", pid);
 	FILE *fp3 = fopen(p_strg, "r"); // Open File for Process Mem Stats
@@ -216,6 +217,11 @@ int get_process_mem_stats(char *pid){
 
 	// Open file and break up by whitespace
         if (fgets(l_buff, sizeof(l_buff), fp3) != NULL){ 
+		if (sizeof(l_buff < max_l_buff)){
+			n = NULL;}
+		printf("L_BUFF = %d\n", l_buff); //dbg
+		printf("M_BUFF = %d\n", sizeof(max_l_buff)); //dbg
+
 		char *prsd = strtok(l_buff, " "); // Break Memory Stats into Columns
 		while (prsd != NULL){ // Continue until no more data is gone
 			char col_name[max_col]; // Create local variable of size (max_col)
